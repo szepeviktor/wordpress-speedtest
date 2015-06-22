@@ -2,9 +2,13 @@
 
 One time run:
 
-`time php index.php|grep -q 'Hello world.</a></h2>' || echo "WordPress error." >&2`
+`time php index.php | grep -q 'Hello world.</a></h2>' || echo "WordPress error." >&2`
 
-Stability test:
+Ten runs:
+
+`time for R in {1..10}; do php index.php > /dev/null; done`
+
+Live stability test:
 
 `while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done`
 
