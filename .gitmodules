@@ -1,0 +1,12 @@
+[submodule "wordpress"]
+	path = wordpress
+	url = https://github.com/WordPress/WordPress.git
+[submodule "content/plugins/sqlite-integration"]
+	path = content/plugins/sqlite-integration
+	url = https://github.com/wp-plugins/sqlite-integration.git
+[submodule "content/plugins/sucuri-scanner"]
+	path = content/plugins/sucuri-scanner
+	url = https://github.com/wp-plugins/sucuri-scanner.git
+[submodule "content/plugins/sucuri-cleanup"]
+	path = content/plugins/sucuri-cleanup
+	url = https://github.com/szepeviktor/sucuri-cleanup.git

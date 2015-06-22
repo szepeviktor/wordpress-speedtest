@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-mailfrom-ii v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-23 10:11+0100\n"
+"PO-Revision-Date: 2012-08-23 10:27+0100\n"
+"Last-Translator: Frederik Svarre <FRS@FSLab.dk>\n"
+"Language-Team: FSLab.dk <support@fslab.dk>\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_attr_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-mailfrom-ii.php:77
+msgid "WP Mail From Plugin"
+msgstr "WP Mail From Plugin"
+
+#: wp-mailfrom-ii.php:77
+msgid "Mail From"
+msgstr "Mail From"
+
+#: wp-mailfrom-ii.php:87
+msgid "Mail From Settings"
+msgstr "Mail From indstillinger"
+
+#: wp-mailfrom-ii.php:93
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: wp-mailfrom-ii.php:111
+msgid "From Name"
+msgstr "Afsender navn"
+
+#: wp-mailfrom-ii.php:118
+msgid "From Email Address"
+msgstr "Afsender e-mailadresse"
+
+#: wp-mailfrom-ii.php:142
+msgid ""
+"If set, these 2 options will override the name and email address in the "
+"<strong>From:</strong> header on all sent emails."
+msgstr ""
+"Hvis angivet, vil disse to indstillinger overskrive navn og e-mailadresse i "
+"<strong>Fra:</strong> headeren i alle afsendte e-mails."
