@@ -25,17 +25,24 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 
 ### Results
 
-| Description       | PHP | msec   | stable |
-| ----------------- | --- | ------:| ------ |
-| AMD FX-6300       | 5.4 |    219 | [x]    |
-| AMD Opteron 4386  | 5.5 |    210 | [x]    |
-| Intel E5-2687W v3 | 5.6 |    151 | [x]    |
-| ???               | 7.0 |    151 | [ ]    |
-| Intel L5640       | 5.6 |    210 | [ ]    |
+| Description                           | CPU               | PHP | msec   | stable |
+| ------------------------------------- | ------------------| --- | ------:| ------ |
+| Virtualbox on Windows 7 Pro           | AMD FX-6300       | 5.4 |    219 | [x]    |
+| OVH Web / Cloud VPS                   | AMD Opteron 4386  | 5.5 |    210 | [x]    |
+| OVH Public Cloud / CPU instance       | Intel E5-2687W v3 | 5.6 |    151 | [x]    |
+| Vultr Compute Instances               | N/A               | 7.0 |    151 | [ ]    |
+| Aruba Cloud / Smart instance          | Intel L5640       | 5.6 |    210 | [ ]    |
 
 
-1. AMD FX-6300: Virtualbox on Windows 7 Pro
-2. AMD Opteron 4386: OVH Web / Cloud VPS
-3. Intel E5-2687W v3: OVH Dedicated Cloud / CPU instance
-4. ???: Vultr Compute Instances
-5. Intel L5640: Aruba Cloud / Smart instance
+### Dependencies
+
+```bash
+# On a Debian based system
+apt-get install -y php5-cli php5-sqlite
+
+# Untar in one go
+wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
+
+# Start a test
+cd wordpress-speedtest/ && time php index.php > /dev/null
+```
