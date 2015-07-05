@@ -32,10 +32,11 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | Virtualbox on Windows 7 Pro           | AMD FX-6300       | 5.4 |    219 | [x]    |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386  | 5.5 |    210 | [x]    |
 | OVH Public Cloud / CPU instance       | Intel E5-2687W v3 | 5.6 |    151 | [x]    |
-| Vultr / Compute instances             | N/A               | 7.0 |    151 | [ ]    |
+| [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances | N/A | 7.0 | 151 | [ ] |
 | Aruba Cloud / Smart instance          | Intel L5640       | 5.6 |    210 | [ ]    |
 | EDIS / KVM Basic plus                 | Intel E5649       | 5.6 |    240 | [ ]    |
 
+*Stable means: within +/- 10%.
 
 ### Dependencies
 
