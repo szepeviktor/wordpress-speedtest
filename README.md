@@ -31,21 +31,28 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) KVM | E5-2680 v3 | 5.6 | 180 | [ ] |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300       | 5.4 |    219 | [x]    |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386  | 5.5 |    210 | [x]    |
+| OVH Web / Cloud VPS                   | AMD Opteron 4284  | 5.6 |    293 | [x]    |
 | OVH Public Cloud / CPU instance       | Intel E5-2687W v3 | 5.6 |    151 | [x]    |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances | N/A | 7.0 | 151 | [ ] |
 | Aruba Cloud / Smart instance          | Intel L5640       | 5.6 |    210 | [ ]    |
 | EDIS / KVM Basic plus                 | Intel E5649       | 5.6 |    240 | [ ]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [ ]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3     | 5.6 |    267 | [ ]    |
+| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2  | 5.6 |    148 | [x]    |
+| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+ | 5.6 |    113 | [x]    |
 
 
++CPU scaling_governor was set to performance.
 *Stable means: within +/- 10%.
 
-### Dependencies
+### Quick installation
 
 ```bash
 # On a Debian based system
 apt-get install -y php5-cli php5-sqlite
+
+# Test sqlite extension
+php -m | grep -qx sqlite3 || echo "Please enable sqlite extension." >&2
 
 # Untar in one go
 wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
