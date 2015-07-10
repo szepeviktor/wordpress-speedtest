@@ -12,6 +12,11 @@ Live stability test:
 
 `while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done`
 
+Simple graph with percentage of change:
+
+`MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php`
+Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
+
 Nice graph of stability:
 
 ```bash
@@ -30,6 +35,8 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) | E5-2630L v2 | 5.6 | 195 | [x] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) KVM | E5-2680 v3 | 5.6 | 180 | [ ] |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300       | 5.4 |    219 | [x]    |
+| [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [ ] |
+| [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | 154 | [x] |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386  | 5.5 |    210 | [x]    |
 | OVH Web / Cloud VPS                   | AMD Opteron 4284  | 5.6 |    293 | [x]    |
 | OVH Public Cloud / CPU instance       | Intel E5-2687W v3 | 5.6 |    151 | [x]    |
@@ -42,8 +49,9 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+ | 5.6 |    113 | [x]    |
 
 
-+CPU scaling_governor was set to performance.
-*Stable means: within +/- 10%.
+`+` CPU scaling_governor was set to performance.
+
+`*` Stable means deviation is within +/- 10%.
 
 ### Quick installation
 
