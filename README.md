@@ -47,7 +47,8 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3     | 5.6 |    267 | [ ]    |
 | SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2  | 5.6 |    148 | [x]    |
 | SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+ | 5.6 |    113 | [x]    |
-
+| Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [x]    |
+| [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | soon to come | 5.6 | ? | [?] |
 
 `+` CPU scaling_governor was set to performance.
 
@@ -62,7 +63,7 @@ apt-get install -y php5-cli php5-sqlite
 # Test sqlite extension
 php -m | grep -qx sqlite3 || echo "Please enable sqlite extension." >&2
 
-# Untar in one go
+# Download and untar in one go
 wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
 
 # Start a test
