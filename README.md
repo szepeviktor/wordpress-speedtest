@@ -44,11 +44,14 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | Aruba Cloud / Smart instance          | Intel L5640       | 5.6 |    210 | [ ]    |
 | EDIS / KVM Basic plus                 | Intel E5649       | 5.6 |    240 | [ ]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [ ]    |
-| Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3     | 5.6 |    267 | [ ]    |
-| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2  | 5.6 |    148 | [x]    |
-| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+ | 5.6 |    113 | [x]    |
+| Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [ ]    |
+| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2           | 5.6 |    148 | [x]    |
+| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+          | 5.6 |    113 | [x]    |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [x]    |
+| Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [ ]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | soon to come | 5.6 | ? | [?] |
+| StackPort                             | Intel ??? Haswell | 5.6 |    121 | [x]    |
+| GleSYS / OpenVZ in Falkenberg         | Intel E5-2687W v3 | 5.6 |    129 | [x]    |
 
 `+` CPU scaling_governor was set to performance.
 
@@ -61,7 +64,7 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 apt-get install -y php5-cli php5-sqlite
 
 # Test sqlite extension
-php -m | grep -qx sqlite3 || echo "Please enable sqlite extension." >&2
+php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." >&2
 
 # Download and untar in one go
 wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
