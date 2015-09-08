@@ -1,36 +1,10 @@
 # WordPress speedtest
 
-One time run:
-
-`time php index.php | grep -q 'Hello world.</a></h2>' || echo "WordPress error." >&2`
-
-Ten runs:
-
-`time for R in {1..10}; do php index.php > /dev/null; done`
-
-Live stability test:
-
-`while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done`
-
-Simple graph with percentage of change:
-
-`MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php`
-Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
-
-Nice graph of stability:
-
-```bash
-apt-get install -y gnuplot5-nox feedgnuplot
-while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
- | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
- | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
-```
-
-Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
+WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 ### Results
 
-| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html) | PHP | msec   | stable |
+| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec   | stable* |
 | ------------------------------------- | ---------------------------| --- | ------:| ------ |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300                | 5.4 |    219 | [x]    |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) | E5-2630L v2 | 5.6 | 195 | [x] |
@@ -45,8 +19,8 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [ ]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [ ]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [ ]    |
-| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2           | 5.6 |    **148** | [x]    |
-| SoYouStart by OVH / E3-SSD-3          | Intel E3-1245 v2+          | 5.6 |    113 | [x]    |
+| SoYouStart by OVH / E3-SSD-3 †        | Intel E3-1245 v2           | 5.6 |    **148** | [x]    |
+| SoYouStart by OVH / E3-SSD-3 †        | Intel E3-1245 v2+          | 5.6 |    113 | [x]    |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [x]    |
 | Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [ ]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250)          | soon to come | 5.6 | ? | [?] |
@@ -56,9 +30,14 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 | Wable / Bundle #2 (OpenVZ)            | ???                        | 5.6 |    203 | [x]    |
 | Scaleway / C1                         | Marvell Armada 370/XP      | 5.6 |   1111 | [x]    |
 
+`*` Stable means deviation is within +/- 10%.
+
+`†` SoYouStart by OVH is a dedicated server provider, not VPS.
+
 `+` CPU `scaling_governor` was set to `performance`.
 
-`*` Stable means deviation is within +/- 10%.
+Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
+
 
 ### Quick installation
 
@@ -74,4 +53,34 @@ wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v
 
 # Start a test
 cd wordpress-speedtest/ && time php index.php > /dev/null
+```
+
+
+### Usage
+
+#### One time run
+
+`time php index.php | grep -q 'Hello world.</a></h2>' || echo "WordPress error." >&2`
+
+#### Ten runs
+
+`time for R in {1..10}; do php index.php > /dev/null; done`
+
+#### Live stability test
+
+`while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done`
+
+#### Simple graph with percentage of change
+
+`MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php`
+
+Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
+
+#### Nice graph of stability
+
+```bash
+apt-get install -y gnuplot5-nox feedgnuplot
+while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
+ | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
+ | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
 ```
