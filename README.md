@@ -23,7 +23,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | SoYouStart by OVH / E3-SSD-3 †        | Intel E3-1245 v2+          | 5.6 |    113 | [x]    |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [x]    |
 | Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [&ensp;]    |
-| [HostHatch](https://portal.hosthatch.com/aff.php?aff=250)          | soon to come | 5.6 | ? | [?] |
+| [HostHatch](https://portal.hosthatch.com/aff.php?aff=250)          | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
 | StackPort                             | Intel ??? Haswell          | 5.6 |**121** | [x]    |
 | GleSYS / OpenVZ in Falkenberg         | Intel E5-2687W v3          | 5.6 |**129** | [x]    |
 | BigV / in York                        | QEMU ???                   | 5.6 |    210 | [x]    |
