@@ -29,7 +29,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | BigV / in York                        | QEMU ???                   | 5.6 |    210 | [x]    |
 | Wable / Bundle #2 (OpenVZ)            | ???                        | 5.6 |    203 | [x]    |
 | Scaleway / C1                         | Marvell Armada 370/XP      | 5.6 |   1111 | [x]    |
-| **UpCloud**                           | Intel E5-2687W v3          | 5.6 | **115**| [x]    |
+| [**UpCloud**](https://www.upcloud.com/pricing/)                    | Intel E5-2687W v3 | 5.6 | **115**| [x] |
 
 `*` Stable means deviation is within +/- 10%.
 
