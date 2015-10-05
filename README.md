@@ -4,7 +4,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 ### Results
 
-| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec   | stable* |
+| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec   | stable\* |
 | ------------------------------------- | ---------------------------| --- | ------:| ------ |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300                | 5.4 |    219 | [√]    |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) | E5-2630L v2 | 5.6 | 195 | [√] |
@@ -30,6 +30,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Wable / Bundle #2 (OpenVZ)            | ???                        | 5.6 |    203 | [√]    |
 | Scaleway / C1                         | Marvell Armada 370/XP      | 5.6 |   1111 | [√]    |
 | [**UpCloud**](https://www.upcloud.com/pricing/) / in Frankfurt       | Intel E5-2687W v3 | 5.6 | **115** | [√] |
+| [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | **167** | [ ] |
 
 `*` Stable means deviation is within +/- 10%.
 
