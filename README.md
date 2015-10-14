@@ -8,10 +8,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | ------------------------------------- | ---------------------------| --- | ------:| ------ |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300                | 5.4 |    219 | [✓]    |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab)              | E5-2630L v2 | 5.6 | 195 | [✓] |
-| [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) KVM | E5-2680 v3  | 5.6 | 180 | [&ensp;] |
+| [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM | E5-2680 v3  | 5.6 | 180 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge     | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge  | 5.5 | **154** | [✓] |
-| OVH Public Cloud / CPU instance       | Intel E5-2687W v3          | 5.6 | **151**| [✓]    |
+| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU instance EG-7     | Intel E5-2687W v3 | 5.6 | **151**| [✓] |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386           | 5.5 |    210 | [✓]    |
 | OVH Web / Cloud VPS                   | AMD Opteron 4284           | 5.6 |    293 | [✓]    |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances | N/A  | 5.6 | **165** | [&ensp;] |
@@ -33,6 +33,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3  | 5.6 | **167** | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
 | Amazon EC2 / c4.large                 | Intel E5-2666 v3           | 5.6 | **113**| [✓]    |
+| CenturyLink / Standard server         | Intel E5-2680              | 5.6 | **151**| [✓]    |
+| CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
+
+<!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] -->
 
 `*` Stable means deviation is within +/- 10%.
 
