@@ -35,6 +35,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Amazon EC2 / c4.large                 | Intel E5-2666 v3           | 5.6 | **113**| [✓]    |
 | CenturyLink / Standard server         | Intel E5-2680              | 5.6 | **151**| [✓]    |
 | CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
+| RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 | **185**| [&ensp;]    |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] -->
 
