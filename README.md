@@ -37,7 +37,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
-| Cloud Webtárhely Plus by EZIT / 2     | QEMU ???                   | 7.0 |    122 | [✓]    |
+| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2     | QEMU ???                   | 7.0 | **122**| [✓]    |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms -->
 
