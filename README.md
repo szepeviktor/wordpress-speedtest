@@ -1,4 +1,4 @@
-# WordPress speedtest
+# WordPress Speedtest
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
@@ -27,17 +27,21 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [StackPort](http://stackport.com/) / m1.medium (beta)                 | Intel ??? Haswell | 5.6 | **121** | [✓] |
 | GleSYS / OpenVZ in Falkenberg         | Intel E5-2687W v3          | 5.6 |**129** | [✓]    |
 | BigV / in York                        | QEMU ???                   | 5.6 |    210 | [✓]    |
-| Wable / Bundle #2 (OpenVZ)            | ???                        | 5.6 |    203 | [✓]    |
+| Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]    |
 | Scaleway / C1                         | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]    |
 | [**UpCloud**](https://www.upcloud.com/pricing/) / in Frankfurt        | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
-| [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3  | 5.6 | **167** | [&ensp;] |
+| [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3  | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
 | Amazon EC2 / c4.large                 | Intel E5-2666 v3           | 5.6 | **113**| [✓]    |
 | CenturyLink / Standard server         | Intel E5-2680              | 5.6 | **151**| [✓]    |
 | CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
-| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2     | QEMU ???                   | 7.0 | **122**| [✓]    |
+| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
+| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU | INtel E3-1240 V2 | 5.6 | 169 | [✓] |
+| Tárhely.eu / Alap + DDR4              | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
+| ProfiTárhely / WORDPRESS              | Intel E3-1230 V2           | 5.6 |    323 | [✓]    |
+
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms -->
 
@@ -46,8 +50,6 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 `†` SoYouStart by OVH is a dedicated server provider, not VPS.
 
 `+` CPU `scaling_governor` was set to `performance`.
-
-Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
 
 
 ### Quick installation
@@ -69,29 +71,27 @@ cd wordpress-speedtest/ && time php index.php > /dev/null
 
 ### Usage
 
-#### One time run
-
-`time php index.php | grep -q 'Hello world.</a></h2>' || echo "WordPress error." >&2`
-
-#### Ten runs
-
-`time for R in {1..10}; do php index.php > /dev/null; done`
-
-#### Live stability test
-
-`while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done`
-
-#### Simple graph with percentage of change
-
-`MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php`
-
-Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
-
-#### Nice graph of stability
-
 ```bash
+# One time run
+time php index.php|grep -q 'Hello world.</a></h2>' || echo "WordPress error." 1>&2
+
+# Ten runs
+time for R in {1..10}; do php index.php > /dev/null; done
+
+# Live stability test
+while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done
+
+# Simple graph * with percentage of change
+MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php
+
+# Nice graph of stability
+
 apt-get install -y gnuplot5-nox feedgnuplot
 while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
  | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
  | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
 ```
+
+`*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
+
+Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
