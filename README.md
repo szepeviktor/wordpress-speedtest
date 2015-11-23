@@ -19,8 +19,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
-| SoYouStart by OVH / E3-SSD-3 †        | Intel E3-1245 v2           | 5.6 | **148**| [✓]    |
-| SoYouStart by OVH / E3-SSD-3 †        | Intel E3-1245 v2+          | 5.6 |    113 | [✓]    |
+| SoYouStart dedicated by OVH / E3-SSD-3 | Intel E3-1245 v2           | 5.6 | **148**| [✓]    |
+| SoYouStart dedicated by OVH / E3-SSD-3 | Intel E3-1245 v2 +         | 5.6 |    113 | [✓]    |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]    |
 | Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250)             | Intel E5-1650 v2  | 5.6 | 256 | [&ensp;] |
@@ -37,20 +37,23 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
-| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
-| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU | INtel E3-1240 V2 | 5.6 | 169 | [✓] |
+| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
+| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU †† | Intel E3-1240 V2 | 5.6 | 169 | [✓] |
 | Tárhely.eu / Alap + DDR4              | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
-| ProfiTárhely / WORDPRESS              | Intel E3-1230 V2           | 5.6 |    323 | [✓]    |
-
+| ProfiTárhely / WORDPRESS †            | Intel E3-1230 V2           | 5.6 |    323 | [&ensp;]    |
+| Magyar Hosting / EVO 3 ††             | Intel E5-1650              | 5.6 |    195 | [✓]    |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms -->
 
 `*` Stable means deviation is within +/- 10%.
 
-`†` SoYouStart by OVH is a dedicated server provider, not VPS.
+`†` Shared hosting with SSH access.
+
+`††` Shared high-resource hosting with SSH access.
+
+SoYouStart by OVH is a dedicated server provider, not VPS.
 
 `+` CPU `scaling_governor` was set to `performance`.
-
 
 ### Quick installation
 
@@ -91,6 +94,8 @@ while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
  | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
  | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
 ```
+
+On cPanel servers PHP-CLI binary can be found at `/opt/alt/php56/usr/bin/php`.
 
 `*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
 
