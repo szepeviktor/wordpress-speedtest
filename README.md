@@ -37,12 +37,14 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | CenturyLink / Hyperscale              | Intel E5-2697 v2           | 5.6 | **150**| [✓]    |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
-| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
-| [**Cloud Webtárhely Plus**](https://client.ezit.hu/aff.php?aff=036) by EZIT / 2 in HU †† | Intel E3-1240 V2 | 5.6 | 169 | [✓] |
+| [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
+| [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 5.6 | 169 | [✓] |
 | Tárhely.eu / Alap + DDR4              | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
 | ProfiTárhely / WORDPRESS †            | Intel E3-1230 V2           | 5.6 |    323 | [&ensp;]    |
 | Magyar Hosting / EVO 3 ††             | Intel E5-1650              | 5.6 |    195 | [✓]    |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
+| Cloud.hu by EZIT / Pro Cloud Flotta   | Intel X5670                | 5.6 |    283 | [&ensp;]    |
+| **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable\*** |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms gandi:E5-2650L_php5.4_600ms[] -->
 
