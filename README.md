@@ -44,6 +44,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Magyar Hosting / EVO 3 ††             | Intel E5-1650              | 5.6 |    195 | [✓]    |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
 | Cloud.hu by EZIT / Pro Cloud Flotta   | Intel X5670                | 5.6 |    283 | [&ensp;]    |
+| elastichosts / 2000 core-MHz          | Intel E5-2680 v2           | 5.6 |    179 | [✓]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable\*** |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms gandi:E5-2650L_php5.4_600ms[] -->
@@ -88,7 +89,7 @@ time for R in {1..10}; do php index.php > /dev/null; done
 while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done
 
 # Simple graph * with percentage of change
-MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=— MSEC_DIVIDER=2 msec php index.php
+MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=_ MSEC_DIVIDER=2 msec php index.php
 
 # Nice graph of stability
 
