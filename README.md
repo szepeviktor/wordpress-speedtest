@@ -4,7 +4,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 ### Results
 
-| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec   | stable\* |
+| Description                           | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec   | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ------ |
 | Virtualbox on Windows 7 Pro           | AMD FX-6300                | 5.4 |    219 | [✓]    |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab)              | E5-2630L v2 | 5.6 | 195 | [✓] |
@@ -44,8 +44,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Magyar Hosting / EVO 3 ††             | Intel E5-1650              | 5.6 |    195 | [✓]    |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
 | Cloud.hu by EZIT / Pro Cloud Flotta   | Intel X5670                | 5.6 |    283 | [&ensp;]    |
-| elastichosts / 2000 core-MHz          | Intel E5-2680 v2           | 5.6 |    179 | [✓]    |
-| **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable\*** |
+| **elastichosts** / VM 2000 core-MHz   | Intel E5-2680 v2           | 5.6 |    179 | [✓]    |
+| [VEXXHOST](https://vexxhost.com/?r=79a170e703) | Intel E5520       | 5.6 |    220 | [✓]    |
+| **Springs.io** by elastichosts / Container 8000 core-MHz | Intel E5-2680 v2 | 5.6 | 161 | [✓]    |
+| **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms gandi:E5-2650L_php5.4_600ms[] -->
 
