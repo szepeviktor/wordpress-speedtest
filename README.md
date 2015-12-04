@@ -44,9 +44,11 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Magyar Hosting / EVO 3 ††             | Intel E5-1650              | 5.6 |    195 | [✓]    |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
 | Cloud.hu by EZIT / Pro Cloud Flotta   | Intel X5670                | 5.6 |    283 | [&ensp;]    |
-| **elastichosts** / VM 2000 core-MHz   | Intel E5-2680 v2           | 5.6 |    179 | [✓]    |
+| **elastichosts** / VM 2000 MHz        | Intel E5-2680 v2           | 5.6 |    179 | [✓]    |
 | [VEXXHOST](https://vexxhost.com/?r=79a170e703) | Intel E5520       | 5.6 |    220 | [✓]    |
-| **Springs.io** by elastichosts / Container 8000 core-MHz | Intel E5-2680 v2 | 5.6 | 161 | [✓]    |
+| **Springs.io** by elastichosts / Container 8000 MHz | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;]    |
+| CityCloud / 1C-1GB in London          | Intel E312xx Sandy Bridge  | 5.6 |    152 | [&ensp;]    |
+| LeaseWeb / Type S                     | QEMU Virtual CPU 1.2.1     | 5.6 |    153 | [✓]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms gandi:E5-2650L_php5.4_600ms[] -->
