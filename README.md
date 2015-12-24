@@ -50,6 +50,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | **Springs.io** by elastichosts / Container 8000 MHz | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;]    |
 | CityCloud / 1C-1GB in London          | Intel E312xx Sandy Bridge  | 5.6 | **152**| [&ensp;]    |
 | LeaseWeb / Type S                     | QEMU Virtual CPU 1.2.1     | 5.6 | **153**| [✓]    |
+| [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 |    264 | [✓]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- PHP 5.6: Maxer:272ms✓ MagyarHosting:278ms[] servetheworld:225ms[]/195ms gandi:E5-2650L_php5.4_600ms[] -->
@@ -68,7 +69,7 @@ SoYouStart by OVH is a dedicated server provider, not VPS.
 
 ```bash
 # On a Debian based system
-apt-get install -y php5-cli php5-sqlite
+apt-get install -y wget ca-certificates php5-cli php5-sqlite
 
 # Test sqlite extension
 php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." >&2
