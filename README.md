@@ -52,10 +52,11 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | LeaseWeb / Type S                     | QEMU Virtual CPU 1.2.1     | 5.6 | **153**| [✓]         |
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
+| Magyar Hosting / SSD VPS              | Intel X5690                | 5.5 |    180 | [&ensp;]    |
+| pocket / Type 1 in US                 | Intel E3-1240 v3           | 5.6 | **99** | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!--| Maxer / Üzleti tárhely †              | ???                        | 5.6 |    272 | [✓]         | -->
-<!--| Magyar Hosting / SSD VPS              | Intel E5-243               | 5.6 |    278 | [&ensp;]    | -->
+<!--| Maxer / VPS 2GHz                      | ???                        | 5.6 |    272 | [✓]         | -->
 <!--| servetheworld / SSD 2GB               | ???                        | 5.6 |    225 | [&ensp;]    | -->
 <!--| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    | -->
 
@@ -65,7 +66,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 `††` Shared high-resource hosting with SSH access.
 
-SoYouStart by OVH is a dedicated server provider, not VPS.
+SoYouStart by OVH and "pocket" is a dedicated server provider, not VPS.
 
 `+` CPU `scaling_governor` was set to `performance`.
 
