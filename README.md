@@ -19,8 +19,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
-| SoYouStart dedicated by OVH / E3-SSD-3 | Intel E3-1245 v2          | 5.6 | **148**| [✓]         |
-| SoYouStart dedicated by OVH / E3-SSD-3 | Intel E3-1245 v2 +        | 5.6 |    113 | [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 § | Intel E3-1245 v2        | 5.6 | **148**| [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 § | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
@@ -53,7 +53,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | Magyar Hosting / SSD VPS              | Intel X5690                | 5.5 |    180 | [&ensp;]    |
-| pocket / Type 1 in US                 | Intel E3-1240 v3           | 5.6 | **99** | [✓]         |
+| Packet / Type 1 in US §               | Intel E3-1240 v3           | 5.6 | **99** | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--| Maxer / VPS 2GHz                      | ???                        | 5.6 |    272 | [✓]         | -->
@@ -66,7 +66,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 `††` Shared high-resource hosting with SSH access.
 
-SoYouStart by OVH and "pocket" is a dedicated server provider, not VPS.
+`§` Dedicated server, not VPS.
 
 `+` CPU `scaling_governor` was set to `performance`.
 
