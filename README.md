@@ -49,12 +49,13 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [VEXXHOST](https://vexxhost.com/?r=79a170e703) | Intel E5520       | 5.6 |    220 | [✓]         |
 | **Springs.io** by elastichosts / Container 8000 MHz :alarm_clock: | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;] |
 | CityCloud / 1C-1GB in London :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | **152** | [&ensp;] |
-| LeaseWeb / Virtual Server Type S      | QEMU Virtual CPU 1.2.1     | 5.6 | **153**| [✓]         |
+| [LeaseWeb](https://www.leaseweb.com/cloud/public) / Virtual Server Type S | QEMU Virtual CPU 1.2.1 | 5.6 | **153** | [✓] |
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 § :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
-| servetheworld / SSD 2GB in Norway     | Intel E5                   | 5.6 |    225 | [&ensp;]    |
+| servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
+| Magyar Telekom / Server Light         | results soon...            |     |        |             |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--| Maxer / VPS 2GHz                      | ???                        | 5.6 |    272 | [✓]         | -->
@@ -69,6 +70,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 `§` Dedicated server, not VPS.
 
 `+` CPU `scaling_governor` was set to `performance`.
+
+:alarm_clock: Hourly billing available.
 
 ### Quick installation
 
