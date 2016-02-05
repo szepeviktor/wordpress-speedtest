@@ -29,12 +29,12 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
 | Scaleway / C1 :alarm_clock:           | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]         |
-| [**UpCloud**](https://www.upcloud.com/pricing/) / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
+| [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
 | Amazon EC2 / c4.large :alarm_clock:   | Intel E5-2666 v3           | 5.6 | **113**| [✓]         |
 | CenturyLink / Standard server :alarm_clock: | Intel E5-2680        | 5.6 | **151**| [✓]         |
-| CenturyLink / Hyperscale :alarm_clock: | Intel E5-2697 v2          | 5.6 | **150**| [✓]         |
+| CenturyLink / [Hyperscale](https://www.ctl.io/hyperscale/#Comparison) :alarm_clock: | Intel E5-2697 v2 | 5.6 | **150**| [✓] |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
 | [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
@@ -55,13 +55,13 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 § :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
-| Magyar Telekom / Server Light         | results soon...            |     |        |             |
+| Pantheon / (sandbox site)             | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
+| Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!--| Maxer / VPS 2GHz                      | ???                        | 5.6 |    272 | [✓]         | -->
-<!--| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    | -->
+<!--| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |-->
 
-`*` Stable means deviation is within +/- 10%.
+`*` Stable means deviation is within ± 10%.
 
 `†` Shared hosting with SSH access.
 
