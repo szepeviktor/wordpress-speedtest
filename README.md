@@ -19,8 +19,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
-| SoYouStart dedicated by OVH / E3-SSD-3 § | Intel E3-1245 v2        | 5.6 | **148**| [✓]         |
-| SoYouStart dedicated by OVH / E3-SSD-3 § | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2        | 5.6 | **148**| [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
 | Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
@@ -39,7 +39,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
 | [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
 | [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 5.6 | 169 | [✓] |
-| Tárhely.eu / Alap + DDR4              | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
+| Tárhely.eu / Alap DDR4                | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
 | ProfiTárhely / WORDPRESS †            | Intel E3-1230 V2           | 5.6 |    323 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.tarhely.com%2Fevo-ssd-tarhely) / EVO 3 †† | Intel E5-1650 | 5.6 | 195 | [✓] |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
@@ -53,13 +53,13 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
-| [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 § :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
+| [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 :computer: :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
 | Pantheon / (sandbox site)             | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
+| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
+| iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    190 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
-
-<!--| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |-->
 
 `*` Stable means deviation is within ± 10%.
 
@@ -67,11 +67,11 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 `††` Shared high-resource hosting with SSH access.
 
-`§` Dedicated server, not VPS.
-
-`+` CPU `scaling_governor` was set to `performance`.
+:computer: Dedicated server, not VPS.
 
 :alarm_clock: Hourly billing available.
+
+`+` CPU `scaling_governor` was set to `performance`.
 
 ### Quick installation
 
