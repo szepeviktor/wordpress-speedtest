@@ -57,8 +57,9 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
 | Pantheon / (sandbox site)             | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
-| gandi / Simple Hosting                | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
-| iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    190 | [&ensp;]    |
+| gandi / Simple Hosting ††             | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
+| iFastNet / Entry (OpenVZ) <!-- ~160ms --> | Intel i7-4771          | 5.6 |    190 | [&ensp;]    |
+| CloudSigma / in ZRH                   | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 `*` Stable means deviation is within ± 10%.
