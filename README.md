@@ -6,7 +6,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
-| Virtualbox on Windows 7 Pro           | AMD FX-6300                | 5.4 |    219 | [✓]         |
+| Virtualbox on Windows 7 Pro :computer:| AMD FX-6300                | 5.4 |    219 | [✓]         |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) :alarm_clock: / KVM | E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
@@ -21,10 +21,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2        | 5.6 | **148**| [✓]         |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
-| Brightbox / SSD 1G                    | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
-| Custom PC / ASUS P5KPL-AM EPU         | Intel Pentium E5400        | 5.3 |    262 | [&ensp;]    |
+| Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
+| Custom PC / ASUS P5KPL-AM EPU :computer: | Intel Pentium E5400     | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
-| [StackPort](http://stackport.com/) / m1.medium (beta) | Intel ??? Haswell | 5.6 | **121** | [✓] |
+| [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓] |
 | GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 |**129** | [✓]         |
 | BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
@@ -55,7 +55,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 :computer: :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
-| Pantheon / (sandbox site)             | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
+| Pantheon / (sandbox site) ††          | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
 | gandi / Simple Hosting ††             | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
 | iFastNet / Entry (OpenVZ) <!-- ~160ms --> | Intel i7-4771          | 5.6 |    190 | [&ensp;]    |
