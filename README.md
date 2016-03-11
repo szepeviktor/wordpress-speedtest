@@ -6,7 +6,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
-| Virtualbox on Windows 7 Pro :computer:| AMD FX-6300                | 5.4 |    219 | [✓]         |
+| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) :alarm_clock: / KVM | E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
@@ -57,10 +57,14 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
 | Pantheon / (sandbox site) ††          | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
-| gandi / Simple Hosting ††             | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
-| iFastNet / Entry (OpenVZ) <!-- ~160ms --> | Intel i7-4771          | 5.6 |    190 | [&ensp;]    |
-| CloudSigma / in ZRH                   | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
+| Gandi.net / Simple Hosting ††         | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
+| iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    190 | [&ensp;]    |
+| CloudSigma / in ZRH :alarm_clock:     | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
+| Scaleway / VPS :alarm_clock:          | Intel Atom C2750           | 5.6 |    500 | [✓]         |
+| Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
+
+<!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
 
 `*` Stable means deviation is within ± 10%.
 
