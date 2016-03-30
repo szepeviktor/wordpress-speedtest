@@ -65,6 +65,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |199 | [&ensp;]    |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
 | Private Layer / 4 Cores @ 3.0 GHz     | N/A                        | 5.6 | **145**| [✓]         |
+| US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
