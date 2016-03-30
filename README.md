@@ -6,9 +6,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
-| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) :alarm_clock: / KVM | E5-2680 v3 | 5.6 | 180 | [&ensp;] |
+| [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | N/A | 5.6 | **145**| [✓] |
+| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU instance EG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **151**| [✓] |
@@ -64,7 +65,6 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
 | Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |199 | [&ensp;]    |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
-| Private Layer / 4 Cores @ 3.0 GHz     | N/A                        | 5.6 | **145**| [✓]         |
 | US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
