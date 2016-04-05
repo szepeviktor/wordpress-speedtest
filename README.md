@@ -54,7 +54,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
-| [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 :computer: :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
+| [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 in EWR1 :computer: :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
 | servetheworld / SSD 2 GB in Norway    | Intel E5                   | 5.6 |    225 | [&ensp;]    |
 | Pantheon / (sandbox site) ††          | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
@@ -71,6 +71,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Zetta.IO / t2.small :alarm_clock:     | Intel E5-2640 v3           | 5.6 |    190 | [&ensp;]    |
 | Microsoft Azure / Standard DS1 :alarm_clock: | Intel E5-2660       | 5.6 |    220 | [&ensp;]    |
 | [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/calculator/) / Standard D1 v2 :alarm_clock: | Intel E5-2673 v3 | 5.6 | **143** | [✓] |
+| [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 in AMS1 :computer: :alarm_clock: | Intel E3-1240 v5 | 5.6 | **93** | [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
