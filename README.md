@@ -66,6 +66,9 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |199 | [&ensp;]    |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
 | US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
+| GoDaddy / Cloud Server Tiny :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 190 | [✓]         |
+| Zetta.IO / m3.medium :alarm_clock:    | Intel E5-2695 v2           | 5.6 |    209 | [✓]         |
+| Zetta.IO / t2.small :alarm_clock:     | Intel E5-2640 v3           | 5.6 |    190 | [&ensp;]    |
 | Microsoft Azure / Standard DS1 :alarm_clock: | Intel E5-2660       | 5.6 |    220 | [&ensp;]    |
 | [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/calculator/) / Standard D1 v2 :alarm_clock: | Intel E5-2673 v3 | 5.6 | **143** | [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
@@ -93,7 +96,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 apt-get install -y wget ca-certificates php5-cli php5-sqlite
 
 # Test sqlite extension
-php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." >&2
+php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." 1>&2
 
 # Download and untar in one go
 wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
@@ -126,8 +129,10 @@ while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
  | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
 ```
 
-On cPanel servers PHP-CLI binary can be found at `/opt/alt/php56/usr/bin/php`.
+Install PHP 5.6 on Ubuntu 14.04 `add-apt-repository ppa:ondrej/php` and `apt-get install -y php5.6-cli php5.6-sqlite`
 
-`*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec).
+On cPanel servers PHP-CLI binary can be found at `/opt/alt/php56/usr/bin/php`
+
+`*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec)
 
 Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
