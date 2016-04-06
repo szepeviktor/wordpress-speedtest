@@ -72,6 +72,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Microsoft Azure / Standard DS1 :alarm_clock: | Intel E5-2660       | 5.6 |    220 | [&ensp;]    |
 | [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/calculator/) / Standard D1 v2 :alarm_clock: | Intel E5-2673 v3 | 5.6 | **143** | [✓] |
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 in AMS1 :computer: :alarm_clock: | Intel E3-1240 v5 | 5.6 | **93** | [✓] |
+| RackForest / Linux VPS Eight          | Intel E5-2630 v2           | 5.6 |    230 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
@@ -128,11 +129,15 @@ apt-get install -y gnuplot5-nox feedgnuplot
 while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
  | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
  | feedgnuplot --terminal 'dumb 120,40' --stream --points --lines -xlen 30 --set "xtics 10"
+
+# CPU model
+dmidecode --type 4
+cat /proc/cpuinfo
 ```
 
-Install PHP 5.6 on Ubuntu 14.04 `add-apt-repository ppa:ondrej/php` and `apt-get install -y php5.6-cli php5.6-sqlite`
+Install PHP 5.6 on Ubuntu 14.04 `LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php5-5.6`
 
-On cPanel servers PHP-CLI binary can be found at `/opt/alt/php56/usr/bin/php`
+cPanel servers have PHP-CLI binary at `/opt/alt/php56/usr/bin/php`
 
 `*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec)
 
