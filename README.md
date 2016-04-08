@@ -29,7 +29,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 |**129** | [✓]         |
 | BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
-| Scaleway / C1 :alarm_clock:           | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]         |
+| Scaleway / C1 :computer: :alarm_clock:           | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]         |
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
