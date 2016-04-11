@@ -74,6 +74,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 in AMS1 :computer: :alarm_clock: | Intel E3-1240 v5 | 5.6 | **93** | [✓] |
 | RackForest / Linux VPS Eight          | Intel E5-2630 v2           | 5.6 |    230 | [✓]         |
 | [RackForest](http://rackforest.hu/ssd-tarhely/) / SSD Ten †† | Intel E3-1231 v3 | 5.6 | **105** | [✓] |
+| Binary Lane / 1 CPU 512 MB :alarm_clock: | N/A                     | 5.6 |    190 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
