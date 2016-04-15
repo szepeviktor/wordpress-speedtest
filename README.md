@@ -7,8 +7,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
-| [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) :alarm_clock: / KVM | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
+| [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
@@ -50,7 +50,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [VEXXHOST](https://vexxhost.com/?r=79a170e703) | Intel E5520       | 5.6 |    220 | [✓]         |
 | **Springs.io** by elastichosts / Container 8000 MHz :alarm_clock: | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;] |
 | CityCloud / 1C-1GB in London :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | **152** | [&ensp;] |
-| [LeaseWeb](https://www.leaseweb.com/cloud/public) / Virtual Server Type S | QEMU Virtual CPU 1.2.1 | 5.6 | **153** | [✓] |
+| [LeaseWeb](https://www.leaseweb.com/cloud/public) / Virtual Server Type S | QEMU | 5.6 | **153** | [✓] |
 | [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
@@ -76,6 +76,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | [RackForest](http://rackforest.hu/ssd-tarhely/) / SSD Ten †† | Intel E3-1231 v3 | 5.6 | **105** | [✓] |
 | Binary Lane / 1 CPU 512 MB :alarm_clock: | N/A                     | 5.6 |    190 | [&ensp;]    |
 | Server4You / vServer SSD M8           | Intel E5520                | 5.6 |    209 | [✓]         |
+| Byte.nl / trial ††                    | Intel E56xx                | 5.6 |    381 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
