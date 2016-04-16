@@ -1,6 +1,6 @@
 # WordPress Speedtest
 
-WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
+WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
 ### Results
 
