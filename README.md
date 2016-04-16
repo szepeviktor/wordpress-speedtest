@@ -77,6 +77,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it.
 | Binary Lane / 1 CPU 512 MB :alarm_clock: | N/A                     | 5.6 |    190 | [&ensp;]    |
 | Server4You / vServer SSD M8           | Intel E5520                | 5.6 |    209 | [✓]         |
 | Byte.nl / trial ††                    | Intel E56xx                | 5.6 |    381 | [✓]         |
+| A Small Orange / Level II Cloud VPS + Cloud VIP Boost | QEMU       | 5.6 |    203 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
