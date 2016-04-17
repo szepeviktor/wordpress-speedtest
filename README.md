@@ -7,7 +7,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
-| [**Liquid Web**](http://www.liquidweb.com/?RID=szepeviktor) / Storm VPS 1GB | Intel E3-1271 v3 | 5.6 | 94 | [✓] |
+| [**Liquid Web**](http://www.liquidweb.com/?RID=szepeviktor) / Storm VPS 1GB | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
@@ -81,6 +81,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | A Small Orange / Level II Cloud VPS + Cloud VIP Boost | QEMU       | 5.6 |    203 | [✓]         |
 | SzerverPlex / 4core 2GB               | Intel X5450                | 5.6 |    256 | [✓]         |
 | KnownHost / SSD-1                     | Intel E5-2620 v3           | 5.6 |    521 | [&ensp;]    |
+| [**Storm on Demand**](http://www.stormondemand.com/?RID=szepeviktor) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
