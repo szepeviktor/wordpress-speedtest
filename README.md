@@ -80,8 +80,9 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Byte.nl / trial ††                    | Intel E56xx                | 5.6 |    381 | [✓]         |
 | A Small Orange / Level II Cloud VPS + Cloud VIP Boost | QEMU       | 5.6 |    203 | [✓]         |
 | SzerverPlex / 4core 2GB               | Intel X5450                | 5.6 |    256 | [✓]         |
-| KnownHost / SSD-1                     | Intel E5-2620 v3           | 5.6 |    521 | [&ensp;]    |
+| KnownHost / SSD-1 managed             | Intel E5-2620 v3           | 5.6 |    167 | [✓]         |
 | [**Storm on Demand**](http://www.stormondemand.com/?RID=szepeviktor) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
+| Szerverem.hu / XXXL                   | AMD Opteron 6136           | 5.6 |    297 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
