@@ -7,6 +7,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
+| [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [**Liquid Web**](http://www.liquidweb.com/?RID=szepeviktor) / Storm VPS 1GB | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
@@ -25,13 +26,12 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
 | Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU :computer: | Intel Pentium E5400     | 5.3 |    262 | [&ensp;]    |
-| [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
+| [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) / SSD VPS - KVM | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
 | [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓] |
-| GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 |**129** | [✓]         |
+| GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 | **129**| [✓]         |
 | BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
 | Scaleway / C1 :computer: :alarm_clock:           | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]         |
-| [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
 | Amazon EC2 / c4.large :alarm_clock:   | Intel E5-2666 v3           | 5.6 | **113**| [✓]         |
@@ -47,8 +47,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
 | Host Europe / Root Server M           | Intel E5-2620 v2           | 5.6 |    207 | [✓]         |
 | Cloud.hu by EZIT / Pro Cloud Flotta :alarm_clock: | Intel X5670    | 5.6 |    283 | [&ensp;]    |
-| **elastichosts** / VM 2000 MHz :alarm_clock: | Intel E5-2680 v2    | 5.6 |    179 | [✓]         |
-| [VEXXHOST](https://vexxhost.com/?r=79a170e703) | Intel E5520       | 5.6 |    220 | [✓]         |
+| elastichosts / VM 2000 MHz :alarm_clock: | Intel E5-2680 v2        | 5.6 |    179 | [✓]         |
+| [VEXXHOST](https://vexxhost.com/?r=79a170e703) / v1-standard-1 | Intel E5520 | 5.6 | 220 | [✓]  |
 | **Springs.io** by elastichosts / Container 8000 MHz :alarm_clock: | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;] |
 | CityCloud / 1C-1GB in London :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | **152** | [&ensp;] |
 | [LeaseWeb](https://www.leaseweb.com/cloud/public) / Virtual Server Type S | QEMU | 5.6 | **153** | [✓] |
@@ -84,6 +84,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [**Storm on Demand**](http://www.stormondemand.com/?RID=szepeviktor) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | Szerverem.hu / XXXL                   | AMD Opteron 6136           | 5.6 |    297 | [✓]         |
 | [ATW](https://atw.hu/vps) / OctopusVS | Intel E5-2670              | 5.6 |    190 | [&ensp;]    |
+| **PCextreme** / Agile 512M            | Common KVM                 | 5.6 | **143**| [&ensp;]    |
+| PCextreme / Stamina 4G                | Common KVM                 | 5.6 |    198 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
