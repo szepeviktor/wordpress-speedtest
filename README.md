@@ -84,8 +84,9 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [**Storm on Demand**](http://www.stormondemand.com/?RID=szepeviktor) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | Szerverem.hu / XXXL                   | AMD Opteron 6136           | 5.6 |    297 | [✓]         |
 | [ATW](https://atw.hu/vps) / OctopusVS | Intel E5-2670              | 5.6 |    190 | [&ensp;]    |
-| **PCextreme** / Agile 512M            | Common KVM                 | 5.6 | **143**| [&ensp;]    |
-| PCextreme / Stamina 4G                | Common KVM                 | 5.6 |    198 | [✓]         |
+| **PCextreme** / Agile 512M :alarm_clock: | Common KVM              | 5.6 | **143**| [&ensp;]    |
+| PCextreme / Stamina 4G :alarm_clock:  | Common KVM                 | 5.6 |    198 | [✓]         |
+| Integrity / vCloud                    | Intel E7-4870              | 5.6 |    181 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
@@ -100,7 +101,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 
 :computer: Dedicated server, not VPS.
 
-:alarm_clock: Hourly billing available.
+:alarm_clock: Hourly (or daily) billing available.
 
 `+` CPU `scaling_governor` was set to `performance`.
 
