@@ -2,6 +2,8 @@
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
+[Video on competing with Amazon](http://livestream.com/gigaom/structureeurope/videos/30328698)
+
 ### Results
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
@@ -88,6 +90,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | PCextreme / Stamina 4G :alarm_clock:  | Common KVM                 | 5.6 |    198 | [✓]         |
 | Integrity / vCloud                    | Intel E7-4870              | 5.6 |    181 | [✓]         |
 | [**Inulogic**](https://www.inulogic.fr/catalogue/produit/vps-perso) / VPS Perso | Intel E3-1240 v2 | 5.6 | **117** | [✓] |
+| Virpus / Pure SSD VPS                 | Intel E5-2620              | 5.6 |    341 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
