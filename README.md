@@ -54,7 +54,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | **Springs.io** by elastichosts / Container 8000 MHz :alarm_clock: | Intel E5-2680 v2 | 5.6 | 161 | [&ensp;] |
 | CityCloud / 1C-1GB in London :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | **152** | [&ensp;] |
 | [LeaseWeb](https://www.leaseweb.com/cloud/public) / Virtual Server Type S | QEMU | 5.6 | **153** | [✓] |
-| [Hostinger / OpenVZ Plan 1](http://api.hostinger.co.uk/redir/7159840) | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
+| [Hostinger](http://api.hostinger.co.uk/redir/7159840) / OpenVZ Plan 1 | Intel E5-2620 v3 | 5.6 | 264 | [✓] |
 | Netrouting / XEN256                   | Intel X5650                | 5.6 |    198 | [&ensp;]    |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel X5690 | 5.5 | 180 | [&ensp;] |
 | [Packet](https://www.packet.net/bare-metal/servers/type-1/) / Type 1 in EWR1 :computer: :alarm_clock: | Intel E3-1240 v3 | 5.6 | **99** | [✓] |
@@ -91,6 +91,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Integrity / vCloud                    | Intel E7-4870              | 5.6 |    181 | [✓]         |
 | [**Inulogic**](https://www.inulogic.fr/catalogue/produit/vps-perso) / VPS Perso | Intel E3-1240 v2 | 5.6 | **117** | [✓] |
 | Virpus / Pure SSD VPS                 | Intel E5-2620              | 5.6 |    341 | [&ensp;]    |
+| ProfitBricks / in Frankfurt           | AMD Opteron 62xx           | 5.6 |    201 | [✓]         |
+| HostUS / Unmanaged VPS                | Intel E5-1650 v3           | 5.6 | **128**| [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
