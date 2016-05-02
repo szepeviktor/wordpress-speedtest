@@ -5,7 +5,8 @@ define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 define( 'FS_METHOD', 'direct' );
-
+define( 'DISABLE_WP_CRON', true );
+define( 'WP_HTTP_BLOCK_EXTERNAL', true );
 
 define( 'USE_MYSQL', false );
 define( 'DB_NAME', 'sqlite' );
@@ -21,9 +22,7 @@ define( 'DB_HOST', 'sqlite' );
 define( 'DB_COLLATE', '' );
 $table_prefix = 'sql3_';
 
-/*
-    Salts
-*/
+/** Salts */
 define('AUTH_KEY',         'Wu>Q-![c4Ucv+E&>rLLF<NL!4N_R}#b1}-UwFt[^#lg1pYyM&t(6uc$b|n t-s~H');
 define('SECURE_AUTH_KEY',  ':rYaE-y+^|9b?jkB86[K*A+6eNdNgW9l$-n6K+pcNQJvpkL`/n8Be&^F Tdv4lH6');
 define('LOGGED_IN_KEY',    '8{puK|kRUjsw`j,v,}sTy;+Un}c`P=8.SEP2.!LM-)/U_W~LwVvb+eHZn5kStn>|');
@@ -33,12 +32,11 @@ define('SECURE_AUTH_SALT', 'n&?^F>nA(-%ymi`KEIIPkjY&8Ky*[lq6DNVI})jrsWLwcuOEwL|S
 define('LOGGED_IN_SALT',   'PZRxL|!k_RtO;}q:+Z.=NjEjd% X|R_V+G{8em4ht(MG;E$)G$85YhJ1s A~BMA+');
 define('NONCE_SALT',       'TMS9F8V-oksk-<CHm|=0$d1Zb-Md|{cQf0Eme+V+}`/1gA$CDW@Qu9o9VXD+B+7O');
 
-
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-    define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', dirname(__FILE__) . '/wordpress/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

@@ -91,7 +91,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Integrity / vCloud                    | Intel E7-4870              | 5.6 |    181 | [✓]         |
 | [**Inulogic**](https://www.inulogic.fr/catalogue/produit/vps-perso) / VPS Perso | Intel E3-1240 v2 | 5.6 | **117** | [✓] |
 | Virpus / Pure SSD VPS                 | Intel E5-2620              | 5.6 |    341 | [&ensp;]    |
-| ProfitBricks / in Frankfurt           | AMD Opteron 62xx           | 5.6 |    201 | [✓]         |
+| ProfitBricks / in Frankfurt :alarm_clock: | AMD Opteron 62xx       | 5.6 |    201 | [✓]         |
 | HostUS / Unmanaged VPS                | Intel E5-1650 v3           | 5.6 | **128**| [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
