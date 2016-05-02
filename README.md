@@ -121,7 +121,7 @@ apt-get install -y wget ca-certificates php5-cli php5-sqlite
 php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." 1>&2
 
 # Download and untar in one go
-wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.0/wordpress-speedtest.tar.gz|tar xzv
+wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.2.0/wordpress-speedtest.tar.gz|tar xzv
 
 # Start a test
 cd wordpress-speedtest/ && time php index.php > /dev/null
