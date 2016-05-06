@@ -94,6 +94,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | ProfitBricks / in Frankfurt :alarm_clock: | AMD Opteron 62xx       | 5.6 |    201 | [✓]         |
 | HostUS / Unmanaged VPS                | Intel E5-1650 v3           | 5.6 | **128**| [✓]         |
 | GloboTech / Popular 2                 | Intel E5-26xx              | 5.6 |    234 | [✓]         |
+| Versanus / 4core 0.5GB                | AMD Opteron 6238           | 5.6 |    270 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
@@ -122,7 +123,7 @@ apt-get install -y wget ca-certificates php5-cli php5-sqlite
 php -m | grep -Eqx "sqlite3|SQLite" || echo "Please enable sqlite extension." 1>&2
 
 # Download and untar in one go
-wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.2.0/wordpress-speedtest.tar.gz|tar xzv
+wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v0.1.2/wordpress-speedtest.tar.gz|tar xzv
 
 # Start a test
 cd wordpress-speedtest/ && time php index.php > /dev/null
