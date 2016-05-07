@@ -20,7 +20,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | OVH Web / Cloud VPS                   | AMD Opteron 4386           | 5.5 |    210 | [✓]         |
 | OVH Web / Cloud VPS                   | AMD Opteron 4284           | 5.6 |    293 | [✓]         |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances :alarm_clock: | N/A | 5.6 | **165** | [&ensp;] |
-| Aruba Cloud / Smart instance (€1)     | Intel L5640                | 5.6 |    210 | [&ensp;]    |
+| Aruba Cloud / Smart Small (€1)        | Intel L5640                | 5.6 |    210 | [&ensp;]    |
+| **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [&ensp;]    |
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
@@ -146,7 +147,6 @@ while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; do
 MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=_ MSEC_DIVIDER=2 msec php index.php
 
 # Nice graph of stability
-
 apt-get install -y gnuplot5-nox feedgnuplot
 while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1 \
  | sed -n 's/^real\s\+0m\([0-9.]\+\)s$/\1/p'; done \
