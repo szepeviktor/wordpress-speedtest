@@ -21,12 +21,12 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | OVH Web / Cloud VPS                   | AMD Opteron 4284           | 5.6 |    293 | [✓]         |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances :alarm_clock: | N/A | 5.6 | **165** | [&ensp;] |
 | Aruba Cloud / Smart Small (€1)        | Intel L5640                | 5.6 |    210 | [&ensp;]    |
-| **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [&ensp;]    |
+| **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [✓]         |
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
 | Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
-| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2        | 5.6 | **148**| [✓]         |
-| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +      | 5.6 |    113 | [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2|5.6 | **148**| [✓]         |
+| SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +|5.6|   113 | [✓]         |
 | Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU :computer: | Intel Pentium E5400     | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) / SSD VPS - KVM | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
@@ -96,6 +96,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | HostUS / Unmanaged VPS                | Intel E5-1650 v3           | 5.6 | **128**| [✓]         |
 | GloboTech / Popular 2                 | Intel E5-26xx              | 5.6 |    234 | [✓]         |
 | Versanus / 4core 0.5GB                | AMD Opteron 6238           | 5.6 |    270 | [&ensp;]    |
+| ATW / FlyHOST                         | ARMv7 rev 3 (v7l)          | 5.6 |    406 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
