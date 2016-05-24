@@ -1,8 +1,5 @@
 <?php
 
-if ( 'cli' === php_sapi_name() ) {
-    $_SERVER['HTTP_HOST'] = 'localhost';
-}
 define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress' );
 define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
