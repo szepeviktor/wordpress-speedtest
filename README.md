@@ -49,6 +49,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.tarhely.com%2Fevo-ssd-tarhely) / EVO 3 †† | Intel E5-1650 | 5.6 | 195 | [✓] |
 | Host Europe / Virtual Server Advanced | Intel E5-2620 v2           | 5.6 |    256 | [&ensp;]    |
 | Host Europe / Root Server M           | Intel E5-2620 v2           | 5.6 |    207 | [✓]         |
+| [**Host Europe**](http://affiliate.hosteurope.de/click.php/vLlAdsfI9ES5g6E5EMn3FzBErqYhwVEHUHD0fyDY-KE,) / new Virtual Server Advanced | Intel E5-2640 v3 | 5.6 | **122**| [✓]         |
 | Cloud.hu by EZIT / Pro Cloud Flotta :alarm_clock: | Intel X5670    | 5.6 |    283 | [&ensp;]    |
 | elastichosts / VM 2000 MHz :alarm_clock: | Intel E5-2680 v2        | 5.6 |    179 | [✓]         |
 | [VEXXHOST](https://vexxhost.com/?r=79a170e703) / v1-standard-1 | Intel E5520 | 5.6 | 220 | [✓]  |
