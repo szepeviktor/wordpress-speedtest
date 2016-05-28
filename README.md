@@ -99,6 +99,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Versanus / 4core 0.5GB                | AMD Opteron 6238           | 5.6 |    270 | [&ensp;]    |
 | ATW / FlyHOST :computer:              | ARMv7 rev 3 (v7l)          | 5.6 |    406 | [✓]         |
 | Webhuset / SSD VPS 2GB                | Intel E5-2665              | 5.6 |    207 | [✓]         |
+| Webonic / V2                          | Intel E312xx Sandy Bridge  | 5.6 |    175 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
