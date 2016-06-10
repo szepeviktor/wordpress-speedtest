@@ -101,6 +101,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Webhuset / SSD VPS 2GB                | Intel E5-2665              | 5.6 |    207 | [✓]         |
 | Webonic / V2                          | Intel E312xx Sandy Bridge  | 5.6 |    175 | [&ensp;]    |
 | **Tiktalik** / CPU Hog :alarm_clock:  | Intel E3-1230 V2           | 5.6 | **136**| [✓]         |
+| Tiktalik / PRO :alarm_clock:          | Intel E3-1230 V2           | 5.6 |    140 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
@@ -147,6 +148,9 @@ time for R in {1..10}; do php index.php > /dev/null; done
 
 # Live stability test
 while :; do { time php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done
+
+# Live stability test on one core
+while :; do { time taskset 0x00000001 php index.php > /dev/null; sleep 0.2; } 2>&1|grep "^real"; done
 
 # Simple graph * with percentage of change
 MSEC_PERC=1 MSEC_DELAY=0 MSEC_DOT=_ MSEC_DIVIDER=2 msec php index.php
