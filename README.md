@@ -64,7 +64,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Pantheon / (sandbox site) ††          | Intel E5-2670              | 5.6 |    430 | [&ensp;]    |
 | Maxer / VPS 2GHz                      | N/A                        | 5.6 |    272 | [✓]         |
 | Gandi.net / Simple Hosting ††         | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
-| iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    190 | [&ensp;]    |
+| iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    160 | [&ensp;]    |
 | CloudSigma / in ZRH :alarm_clock:     | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
 | Scaleway / VPS :alarm_clock:          | Intel Atom C2750           | 5.6 |    500 | [✓]         |
 | Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
@@ -102,10 +102,10 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Webonic / V2                          | Intel E312xx Sandy Bridge  | 5.6 |    175 | [&ensp;]    |
 | **Tiktalik** / CPU Hog :alarm_clock:  | Intel E3-1230 V2           | 5.6 | **136**| [✓]         |
 | Tiktalik / PRO :alarm_clock:          | Intel E3-1230 V2           | 5.6 |    140 | [&ensp;]    |
+| NephoScale / CS2.2-SSD :alarm_clock:  | QEMU                       | 5.6 |    143 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!-- iFastNet / Entry (OpenVZ) | best result ~160ms -->
-
+<!-- wget -O- https://git.io/vor8W|bash -->
 <!-- new: http://iwstack.com/ -->
 
 `*` Stable means deviation is within ± 10%.
