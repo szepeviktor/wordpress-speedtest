@@ -2,7 +2,8 @@
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
-[Video on competing with Amazon](http://livestream.com/gigaom/structureeurope/videos/30328698)
+[Video on competing with Amazon](http://livestream.com/accounts/74987/events/2361507/videos/30328698/player?autoPlay=true&mute=false)
+<!-- http://livestream.com/gigaom/structureeurope/videos/30328698 -->
 
 [Top 10 European Cloud Service Providers 2016 Price-Performance Report](http://connect.cloudspectator.com/european-cloud-service-providers-report-download)
 
@@ -71,7 +72,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | CloudSigma / in ZRH :alarm_clock:     | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
 | Scaleway / VPS :alarm_clock:          | Intel Atom C2750           | 5.6 |    500 | [✓]         |
 | Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
-| Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |199 | [&ensp;]    |
+| Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |178 | [✓]         |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
 | US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
 | GoDaddy / Cloud Server Tiny :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 190 | [✓]         |
@@ -109,6 +110,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Joyent / Infrastructure Container :alarm_clock: | Intel E5-2690 v3 | 5.6 |    167 | [&ensp;]    |
 | CityCloud / 2C-1GB in Frankfurt :alarm_clock: | Intel E5-26XX      | 5.6 | **125**| [&ensp;]    |
 | TerraHost / VS X-5 2016               | Intel E3-1240 v5           | 5.6 |    107 | [✓]         |
+| BlazingFast / SSD Cloud Server 2GB    | Intel E3-1240 v3           | 5.6 |    140 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
