@@ -92,7 +92,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [**Storm on Demand**](http://www.stormondemand.com/?RID=szepeviktor) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | Szerverem.hu / XXXL                   | AMD Opteron 6136           | 5.6 |    297 | [✓]         |
 | [ATW](https://atw.hu/vps) / OctopusVS | Intel E5-2670              | 5.6 |    190 | [&ensp;]    |
-| **PCextreme** / Agile 512M :alarm_clock: | Common KVM              | 5.6 | **143**| [&ensp;]    |
+| PCextreme / Agile 512M :alarm_clock:  | Common KVM                 | 5.6 |    143 | [&ensp;]    |
 | PCextreme / Stamina 4G :alarm_clock:  | Common KVM                 | 5.6 |    198 | [✓]         |
 | Integrity / vCloud                    | Intel E7-4870              | 5.6 |    181 | [✓]         |
 | [**Inulogic**](https://www.inulogic.fr/catalogue/produit/vps-perso) / VPS Perso | Intel E3-1240 v2 | 5.6 | **117** | [✓] |
@@ -111,6 +111,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | CityCloud / 2C-1GB in Frankfurt :alarm_clock: | Intel E5-26XX      | 5.6 | **125**| [&ensp;]    |
 | TerraHost / VS X-5 2016               | Intel E3-1240 v5           | 5.6 |    107 | [✓]         |
 | BlazingFast / SSD Cloud Server 2GB    | Intel E3-1240 v3           | 5.6 |    140 | [&ensp;]    |
+| Hawk Host / Basic VPS                 | Intel E5-2620              | 5.6 |    255 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
