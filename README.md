@@ -27,8 +27,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [✓]         |
 | Aruba Cloud / Smart Small (€1)        | Intel E5-2650L v3          | 5.6 |    190 | [&ensp;]    |
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
-| Joyent Public Cloud / High CPU 1.75 SmartOS | Intel E5-2670        | 5.5 |    245 | [&ensp;]    |
-| Joyent Public Cloud / High CPU 1.75 KVM | Intel E5-2690 v3         | 5.6 |    267 | [&ensp;]    |
+| Joyent Public Cloud / Infrastructure container High CPU 4 SmartOS | Intel E5-2670 | 5.6 | 245 | [&ensp;]    |
+| Joyent Public Cloud / KVM High CPU 1.75 | Intel E5-2670            | 5.6 |    160 | [✓]         |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2|5.6 | **148**| [✓]         |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +|5.6|   113 | [✓]         |
 | Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
@@ -107,13 +107,14 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | **Tiktalik** / CPU Hog :alarm_clock:  | Intel E3-1230 V2           | 5.6 | **136**| [✓]         |
 | Tiktalik / PRO :alarm_clock:          | Intel E3-1230 V2           | 5.6 |    140 | [&ensp;]    |
 | **NephoScale** / CS2.2-SSD :alarm_clock: | Intel E5-2690 v2        | 5.6 | **143**| [✓]         |
-| Joyent / Infrastructure Container :alarm_clock: | Intel E5-2690 v3 | 5.6 |    167 | [&ensp;]    |
+| Joyent / Infrastructure Container :alarm_clock: | Intel E5-2690 v3 | 5.6 |    167 | [✓]         |
 | CityCloud / 2C-1GB in Frankfurt :alarm_clock: | Intel E5-26XX      | 5.6 | **125**| [&ensp;]    |
 | TerraHost / VS X-5 2016               | Intel E3-1240 v5           | 5.6 |    107 | [✓]         |
 | BlazingFast / SSD Cloud Server 2GB    | Intel E3-1240 v3           | 5.6 |    140 | [&ensp;]    |
 | Hawk Host / Basic VPS                 | Intel E5-2620              | 5.6 |    255 | [&ensp;]    |
 | Bluehost / VPS standard ††            | Intel E5-2650 v3           | 5.6 |    201 | [&ensp;]    |
 | VPSDime / VPS 6GB                     | Intel E5-2630              | 5.6 |    231 | [✓]         |
+| SoftLayer / VPS 2 cores               | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
