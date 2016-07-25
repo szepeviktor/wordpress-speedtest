@@ -12,11 +12,11 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
-| [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
+| [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
-| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    219 | [✓]         |
+| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    190 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU instance EG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **151**| [✓] |
@@ -115,11 +115,11 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Bluehost / VPS standard ††            | Intel E5-2650 v3           | 5.6 |    201 | [&ensp;]    |
 | VPSDime / VPS 6GB                     | Intel E5-2630              | 5.6 |    231 | [✓]         |
 | SoftLayer / VPS 2 cores :alarm_clock: | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
-| DreamCompute / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4     | 5.6 | **150**| [&ensp;]    |
+| DreamHost / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4        | 5.6 | **150**| [&ensp;]    |
+| SwiftwayCloud / 3.0 GB                | QEMU                       | 5.6 |    231 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
-<!-- new: http://iwstack.com/ -->
 
 `*` Stable means deviation is within ± 10%.
 
