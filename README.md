@@ -2,8 +2,8 @@
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
-[Video on competing with Amazon](http://livestream.com/accounts/74987/events/2361507/videos/30328698/player?autoPlay=true&mute=false)
-<!-- http://livestream.com/gigaom/structureeurope/videos/30328698 -->
+[Video on competing with Amazon](http://livestream.com/gigaom/structureeurope/videos/30328698) *4th video*
+<!-- Amazon in sight http://livestream.com/accounts/74987/events/2361507/videos/30328698/player?autoPlay=true&mute=false -->
 
 [Top 10 European Cloud Service Providers 2016 Price-Performance Report](http://connect.cloudspectator.com/european-cloud-service-providers-report-download)
 
@@ -27,25 +27,26 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [✓]         |
 | Aruba Cloud / Smart Small (€1)        | Intel E5-2650L v3          | 5.6 |    190 | [&ensp;]    |
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
-| Joyent Public Cloud / Infrastructure container High CPU 4 SmartOS | Intel E5-2670 | 5.6 | 245 | [&ensp;]    |
+| Joyent Public Cloud / Infrastructure container High CPU 4 SmartOS | Intel E5-2670 | 5.6 | 245 | [&ensp;] |
 | Joyent Public Cloud / KVM High CPU 1.75 | Intel E5-2670            | 5.6 |    160 | [✓]         |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2|5.6 | **148**| [✓]         |
 | SoYouStart dedicated by OVH / E3-SSD-3 :computer: | Intel E3-1245 v2 +|5.6|   113 | [✓]         |
 | Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU :computer: | Intel Pentium E5400     | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) / SSD VPS - KVM | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
-| [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓] |
+| [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓]     |
+| [StackPort](http://stackport.com/) / m1.small | QEMU               | 5.6 | **119**| [&ensp;]    |
 | GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 | **129**| [✓]         |
 | BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
-| Scaleway / C1 :computer: :alarm_clock:           | Marvell Armada 370/XP      | 5.6 |   1111 | [✓]         |
+| Scaleway / C1 :computer: :alarm_clock: | Marvell Armada 370/XP     | 5.6 |   1111 | [✓]         |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
 | Amazon EC2 / c4.large :alarm_clock:   | Intel E5-2666 v3           | 5.6 | **113**| [✓]         |
 | CenturyLink / Standard server :alarm_clock: | Intel E5-2680        | 5.6 | **151**| [✓]         |
 | CenturyLink / [Hyperscale](https://www.ctl.io/hyperscale/#Comparison) :alarm_clock: | Intel E5-2697 v2 | 5.6 | **150**| [✓] |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
-| webtropia-myLoc / vServer M 4.0       | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
+| webtropia by myLoc / vServer M 4.0    | Intel E5-2620 v2           | 5.6 |    234 | [&ensp;]    |
 | [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 7.0 | **122**| [✓] |
 | [**Cloud.hu by EZIT**](https://client.ezit.hu/aff.php?aff=036) / Cloud Webtárhely Plus 2 †† | Intel E3-1240 V2 | 5.6 | 169 | [✓] |
 | Tárhely.eu / Alap DDR4                | Intel E5-1620 v3           | 5.6 |    175 | [&ensp;]    |
@@ -116,12 +117,12 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | VPSDime / VPS 6GB                     | Intel E5-2630              | 5.6 |    231 | [✓]         |
 | SoftLayer / VPS 2 cores :alarm_clock: | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
 | DreamHost / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4        | 5.6 | **150**| [&ensp;]    |
-| SwiftwayCloud / 3.0 GB                | QEMU                       | 5.6 |    231 | [✓]         |
+| SwiftwayCloud / 3.0 GB                | Intel E5-2620              | 5.6 |    231 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
 
-`*` Stable means deviation is within ± 10%.
+`*` Stable means deviation is within ± 10%, the cause is mainly memory bandwidth.
 
 `†` Shared hosting with SSH access.
 
