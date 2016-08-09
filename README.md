@@ -19,7 +19,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    190 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
-| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU instance EG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **151**| [✓] |
+| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128**| [&ensp;] |
+| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance HG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **160**| [&ensp;] |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386           | 5.5 |    210 | [✓]         |
 | OVH Web / Cloud VPS                   | AMD Opteron 4284           | 5.6 |    293 | [✓]         |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances :alarm_clock: | N/A | 5.6 | **165** | [&ensp;] |
@@ -118,6 +119,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | SoftLayer / VPS 2 cores :alarm_clock: | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
 | DreamHost / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4        | 5.6 | **150**| [&ensp;]    |
 | SwiftwayCloud / 3.0 GB                | Intel E5-2620              | 5.6 |    231 | [✓]         |
+| Host1Plus / 2C-2GB in Frankfurt       | Intel E5-2620 v3           | 5.6 |    151 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
