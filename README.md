@@ -123,6 +123,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [**iwStack**](https://www.prometeus.net/billing/aff.php?aff=513) by Prometeus / 2C-1GB in NL :alarm_clock: | Intel E3-1241 v3 | 5.6 | **109** | [✓] |
 | netcup / RS 2000 G7                   | Intel E5-2680 v4           | 5.6 |    148 | [&ensp;]    |
 | [Neohost.com.ua](http://neohost.com.ua/?from=14478) / KVM-SSD-2048 | Intel E3-1230 v2 | 5.6 | **115** | [✓] |
+| SnackHost by VSHosting / 1C-1GB       | AMD Opteron 63xx           | 5.6 |    261 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
