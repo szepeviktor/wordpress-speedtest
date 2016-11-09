@@ -117,13 +117,14 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Bluehost / VPS standard ††            | Intel E5-2650 v3           | 5.6 |    201 | [&ensp;]    |
 | VPSDime / VPS 6GB                     | Intel E5-2630              | 5.6 |    231 | [✓]         |
 | SoftLayer / VPS 2 cores :alarm_clock: | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
-| DreamHost / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4        | 5.6 | **150**| [&ensp;]    |
+| [DreamHost](https://www.dreamhost.com/r.cgi?2206776) / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4 | 5.6 | **150** | [&ensp;] |
 | SwiftwayCloud / 3.0 GB                | Intel E5-2620              | 5.6 |    231 | [✓]         |
 | Host1Plus / 2C-2GB in Frankfurt       | Intel E5-2620 v3           | 5.6 |    151 | [&ensp;]    |
 | [**iwStack**](https://www.prometeus.net/billing/aff.php?aff=513) by Prometeus / 2C-1GB in NL :alarm_clock: | Intel E3-1241 v3 | 5.6 | **109** | [✓] |
 | netcup / RS 2000 G7                   | Intel E5-2680 v4           | 5.6 |    148 | [&ensp;]    |
 | [Neohost.com.ua](http://neohost.com.ua/?from=14478) / KVM-SSD-2048 | Intel E3-1230 v2 | 5.6 | **115** | [✓] |
-| SnackHost by VSHosting / 1C-1GB       | AMD Opteron 63xx           | 5.6 |    261 | [✓]         |
+| SnackHost by VSHosting / 1C-1GB :alarm_clock: | AMD Opteron 63xx   | 5.6 |    261 | [✓]         |
+| Rackhost / VPS 2048                   | Intel 5160                 | 5.6 |    230 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
