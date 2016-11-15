@@ -38,7 +38,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓]     |
 | [StackPort](http://stackport.com/) / m1.small | QEMU               | 5.6 | **119**| [&ensp;]    |
 | GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 | **129**| [✓]         |
-| BigV / in York                        | QEMU                       | 5.6 |    210 | [✓]         |
+| Bytemark (formerly BigV) / in York    | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
 | Scaleway / C1 :computer: :alarm_clock: | Marvell Armada 370/XP     | 5.6 |   1111 | [✓]         |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
@@ -125,6 +125,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Neohost.com.ua](http://neohost.com.ua/?from=14478) / KVM-SSD-2048 | Intel E3-1230 v2 | 5.6 | **115** | [✓] |
 | SnackHost by VSHosting / 1C-1GB :alarm_clock: | AMD Opteron 63xx   | 5.6 |    261 | [✓]         |
 | Rackhost / VPS 2048                   | Intel 5160                 | 5.6 |    230 | [✓]         |
+| [Packet](https://www.packet.net/bare-metal/servers/type-2a/) / Type 2A in EWR1 :computer: :alarm_clock: | ARM Cavium ThunderX CN8890 | 5.6 | 500 | [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
