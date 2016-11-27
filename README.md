@@ -17,7 +17,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
-| Virtualbox on my PC                   | AMD FX-6300                | 5.4 |    158 | [✓]         |
+| Virtualbox on my PC                   | AMD FX-6300                | 5.6 |    158 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128**| [&ensp;] |
@@ -117,7 +117,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Hawk Host / Basic VPS                 | Intel E5-2620              | 5.6 |    255 | [&ensp;]    |
 | Bluehost / VPS standard ††            | Intel E5-2650 v3           | 5.6 |    201 | [&ensp;]    |
 | VPSDime / VPS 6GB                     | Intel E5-2630              | 5.6 |    231 | [✓]         |
-| SoftLayer / VPS 2 cores :alarm_clock: | Intel E5-2650 v2           | 5.6 |    175 | [✓]         |
+| SoftLayer by IBM / VPS 2 cores :alarm_clock: | Intel E5-2650 v2    | 5.6 |    175 | [✓]         |
 | [DreamHost](https://www.dreamhost.com/r.cgi?2206776) / gp1.lightspeed :alarm_clock: | Intel E5-2620 v4 | 5.6 | **150** | [&ensp;] |
 | SwiftwayCloud / 3.0 GB                | Intel E5-2620              | 5.6 |    231 | [✓]         |
 | Host1Plus / 2C-2GB in Frankfurt       | Intel E5-2620 v3           | 5.6 |    151 | [&ensp;]    |
@@ -197,3 +197,19 @@ cPanel servers have PHP-CLI binary at `/opt/alt/php56/usr/bin/php`
 `*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec)
 
 Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
+
+### How to choose VPS provider?
+
+1. Data center location
+1. Price
+1. Has own AS? Number of peers
+1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6
+1. Redundancy: power, network, storage, **hypervisor**
+1. Stores plain text passwords?
+1. Free scheduled backup
+1. Disk access time: ~1 ms
+1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
+1. Memory bandwidth (bandwidth64)
+1. Spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
+1. Response time of nighttime technical support in case of network or hardware failure
+1. Daytime technical and billing support
