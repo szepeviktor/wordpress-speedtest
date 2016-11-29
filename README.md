@@ -130,6 +130,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Packet](https://www.packet.net/bare-metal/servers/type-2a/) / Type 2A in EWR1 :computer: :alarm_clock: | Cavium ThunderX CN8890 | 5.6 | 500 | [✓] |
 | Innofield / Flow App Engine           | Intel E5-2695 v2           | 5.6 |    206 | [✓]         |
 | [e24cloud.com](https://www.e24cloud.com) / 4C 8GB :alarm_clock: | Intel E5-2670 v2           | 5.6 |    183 | [✓]         |
+| Cloudwatt by Orange / n1.cw.highcpu-2 | Intel E312xx               | 5.6 |    200 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
