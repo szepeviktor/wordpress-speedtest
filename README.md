@@ -11,6 +11,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
+| Tu Cloud Server / VPS 50 in Madrid    | Intel E5-2620 v2           | 5.6 |    179 | [✓]         |
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 |  159 | [✓] |
@@ -131,7 +132,6 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Innofield / Flow App Engine           | Intel E5-2695 v2           | 5.6 |    206 | [✓]         |
 | [e24cloud.com](https://www.e24cloud.com) / 4C 8GB :alarm_clock: | Intel E5-2670 v2           | 5.6 |    183 | [✓]         |
 | Cloudwatt by Orange / n1.cw.highcpu-2 | Intel E312xx               | 5.6 |    200 | [✓]         |
-| Tu Cloud Server / VPS 50 in Madrid    | Intel E5-2620 v2           | 5.6 |    179 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
