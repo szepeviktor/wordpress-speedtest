@@ -7,6 +7,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 
 [Top 10 European Cloud Service Providers 2016 Price-Performance Report](http://connect.cloudspectator.com/european-cloud-service-providers-report-download)
 
+[Cloud Provider Directory by Gartner](https://cloudharmony.com/cloudsquare)
+
 ### Results
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
@@ -134,6 +136,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Cloudwatt by Orange / n1.cw.highcpu-2 :alarm_clock: | Intel E312xx | 5.6 |    200 | [✓]         |
 | Dediserve / 2C-2GB in Vienna          | QEMU                       | 5.6 |    203 | [✓]         |
 | Dediserve / 2C-2GB in Frankfurt       | Intel E5-2660              | 5.6 |    219 | [✓]         |
+| Lunacloud / 2C-2GB in Portugal        | Intel E5-2640 v2           | 5.6 |    201 | [&ensp;]    |
+| Togglebox / 2C-2GB                    | QEMU                       | 5.6 |    172 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
@@ -196,11 +200,11 @@ dmidecode --type 4
 cat /proc/cpuinfo
 ```
 
-Install PHP 5.6 on Ubuntu 14.04 `LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php5-5.6`
-
-cPanel servers have PHP-CLI binary at `/opt/alt/php56/usr/bin/php`
-
 `*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec)
+
+Install PHP 5.6 on Ubuntu 14.04 Trusty `LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php5-5.6`
+
+cPanel server's PHP-CLI binary location `/opt/alt/php56/usr/bin/php`
 
 Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
 
@@ -209,13 +213,13 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 1. Data center location
 1. Price
 1. Has own AS? Number of peers
-1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6
-1. Redundancy: power, network, storage, **hypervisor**
-1. Stores plain text passwords?
-1. Free scheduled backup
-1. Disk access time: ~1 ms
-1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
-1. Memory bandwidth (bandwidth64)
-1. Spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
 1. Response time of nighttime technical support in case of network or hardware failure
 1. Daytime technical and billing support
+1. Stores plain text passwords?
+1. Redundancy: power, cooling, network, storage, **hypervisor**
+1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
+1. Memory bandwidth: flat graphs with bandwidth64
+1. Disk access time: < 1 ms
+1. Free scheduled backup
+1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6
+1. Spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
