@@ -138,6 +138,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Dediserve / 2C-2GB in Frankfurt       | Intel E5-2660              | 5.6 |    219 | [✓]         |
 | Lunacloud / 2C-2GB in Portugal        | Intel E5-2640 v2           | 5.6 |    201 | [&ensp;]    |
 | Togglebox / 2C-2GB                    | QEMU                       | 5.6 |    172 | [&ensp;]    |
+| Auro / standard.4                     | N/A                        | 5.6 |    141 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
