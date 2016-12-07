@@ -21,7 +21,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
-| My custom PC                          | AMD FX-6300                | 5.6 |    158 | [✓]         |
+| My custom PC :computer:               | AMD FX-6300                | 5.6 |    158 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128**| [&ensp;] |
@@ -40,8 +40,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Brightbox / SSD 1G :alarm_clock:      | Intel E312xx Sandy Bridge  | 5.5 |    210 | [✓]         |
 | Custom PC / ASUS P5KPL-AM EPU :computer: | Intel Pentium E5400     | 5.3 |    262 | [&ensp;]    |
 | [HostHatch](https://portal.hosthatch.com/aff.php?aff=250) / SSD VPS - KVM | Intel E5-1650 v2 | 5.6 | 256 | [&ensp;] |
-| [StackPort](http://stackport.com/) / m1.medium (beta) | Intel Haswell | 5.6 | **121** | [✓]     |
-| [StackPort](http://stackport.com/) / m1.small | QEMU               | 5.6 | **119**| [&ensp;]    |
+| [StackPort](http://stackport.com/) / m1.medium (beta) :alarm_clock: | Intel Haswell | 5.6 | **121** | [✓] |
+| [StackPort](http://stackport.com/) / m1.small :alarm_clock: | QEMU | 5.6 | **119**| [&ensp;]    |
 | GleSYS / OpenVZ in Falkenberg :alarm_clock: | Intel E5-2687W v3    | 5.6 | **129**| [✓]         |
 | Bytemark (formerly BigV) / in York    | QEMU                       | 5.6 |    210 | [✓]         |
 | Wable / Bundle #2 (OpenVZ)            | N/A                        | 5.6 |    203 | [✓]         |
@@ -115,8 +115,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Tiktalik / PRO :alarm_clock:          | Intel E3-1230 V2           | 5.6 |    140 | [&ensp;]    |
 | **NephoScale** / CS2.2-SSD :alarm_clock: | Intel E5-2690 v2        | 5.6 | **143**| [✓]         |
 | Joyent / Infrastructure Container :alarm_clock: | Intel E5-2690 v3 | 5.6 |    167 | [✓]         |
-| CityCloud / 2C-1GB in Frankfurt :alarm_clock: | Intel E5-26XX      | 5.6 | **125**| [&ensp;]    |
-| TerraHost / VS X-5 2016               | Intel E3-1240 v5           | 5.6 |    107 | [✓]         |
+| CityCloud / 2C-1GB in Frankfurt :alarm_clock: | Intel E5-26XX      | 5.6 | **128**| [✓]         |
+| TerraHost / VS X-5 2016               | Intel E3-1240 v5           | 5.6 | **107**| [✓]         |
 | BlazingFast / SSD Cloud Server 2GB    | Intel E3-1240 v3           | 5.6 |    140 | [&ensp;]    |
 | Hawk Host / Basic VPS                 | Intel E5-2620              | 5.6 |    255 | [&ensp;]    |
 | Bluehost / VPS standard ††            | Intel E5-2650 v3           | 5.6 |    201 | [&ensp;]    |
@@ -136,14 +136,15 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Cloudwatt by Orange / n1.cw.highcpu-2 :alarm_clock: | Intel E312xx | 5.6 |    200 | [✓]         |
 | Dediserve / 2C-2GB in Vienna          | QEMU                       | 5.6 |    203 | [✓]         |
 | Dediserve / 2C-2GB in Frankfurt       | Intel E5-2660              | 5.6 |    219 | [✓]         |
-| Lunacloud / 2C-2GB in Portugal        | Intel E5-2640 v2           | 5.6 |    201 | [&ensp;]    |
-| Togglebox / 2C-2GB                    | QEMU                       | 5.6 |    172 | [&ensp;]    |
-| Auro / standard.4                     | N/A                        | 5.6 |    141 | [✓]         |
+| Lunacloud / 2C-2GB in Portugal :alarm_clock: | Intel E5-2640 v2    | 5.6 |    201 | [&ensp;]    |
+| Togglebox / 2C-2GB on HV41.dal :alarm_clock: | Intel E5-2670 v3    | 5.6 | **142**| [✓]         |
+| Auro / standard.4 :alarm_clock:       | Intel E5-2670              | 5.6 | **141**| [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- wget -O- https://git.io/vor8W|bash -->
 
-`*` Stable means deviation is within ± 10%, the cause is mainly memory bandwidth.
+`*` Stable means deviation is within ± 10%, the cause is mainly
+[memory bandwidth](https://github.com/szepeviktor/debian-server-tools/blob/master/monitoring/memory-bandwidth/README.md).
 
 `†` Shared hosting with SSH access.
 
