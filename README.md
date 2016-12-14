@@ -16,17 +16,17 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Tu Cloud Server](https://www.tucloudserver.com/) / VPS 50 in Madrid | Intel E5-2620 v2 | 5.6 | 179 | [✓] |
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
-| [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 |  159 | [✓] |
-| [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
-| [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145**| [✓] |
-| Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60GHz | 5.6 | 137 | [✓] |
+| [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 | **159** | [✓] |
+| [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 :alarm_clock: | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
+| [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145** | [✓] |
+| Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | My custom PC :computer:               | AMD FX-6300                | 5.6 |    158 | [✓]         |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
 | [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
-| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128**| [&ensp;] |
-| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance HG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **160**| [&ensp;] |
+| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128** | [&ensp;] |
+| [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance HG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **160** | [&ensp;] |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386           | 5.5 |    210 | [✓]         |
 | OVH Web / Cloud VPS                   | AMD Opteron 4284           | 5.6 |    293 | [✓]         |
 | [Vultr](http://www.vultr.com/?ref=6815796) / Compute instances :alarm_clock: | N/A | 5.6 | **165** | [&ensp;] |
@@ -142,6 +142,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Auro / standard.4 :alarm_clock:       | Intel E5-2670              | 5.6 | **141**| [✓]         |
 | Sweden Dedicated / SSD VPS 1024 MB    | Intel E5640                | 5.6 |    337 | [✓]         |
 | Cloudwatt by Orange / n2.cw.standard-2 :alarm_clock: | Intel E312xx | 5.6 |**109**| [✓]         |
+| Steadfast / 2C-1GB :alarm_clock:      | Intel E5-2650              | 5.6 |    224 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html https://www.yourserver.se/portal/register.php -->
@@ -217,16 +218,21 @@ Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/i
 
 ### How to choose VPS provider?
 
+Operation
+
 1. Data center location
 1. Price
 1. Has own AS? Number of peers
+1. Response to abuse report, spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
+1. Stores plain text passwords?
 1. Response time of nighttime technical support in case of network or hardware failure
 1. Daytime technical and billing support
-1. Stores plain text passwords?
+
+Infrastructure
+
 1. Redundancy: power, cooling, network, storage, **hypervisor**
-1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
-1. Memory bandwidth: flat graphs with bandwidth64
-1. Disk access time: < 1 ms
-1. Free scheduled backup
 1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6
-1. Spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
+1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
+1. Memory bandwidth: flat graphs with [bandwidth64](http://zsmith.co/bandwidth.html)
+1. Disk access time: < 1 ms
+1. Scheduled backup
