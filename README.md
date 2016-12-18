@@ -218,6 +218,19 @@ cPanel server's PHP-CLI binary location `/opt/alt/php56/usr/bin/php`
 
 Please [report your result](https://github.com/szepeviktor/wordpress-speedtest/issues/new)!
 
+### Provider Top List
+
+```bash
+{
+echo "| Description | CPU | PHP | msec | stable |"
+wget -qO- https://github.com/szepeviktor/wordpress-speedtest/raw/master/README.md \
+    | grep "^|" | sed -e "s|\*\*||g" | grep -v "^| Description |" \
+    | sort -t "|" -k 5 -n
+} > wordpress-speedtest-sorted-results.md
+```
+
+Then use a Markdown editor like [Caret](http://caret.io/) to display it.
+
 ### How to choose VPS provider?
 
 Operation
