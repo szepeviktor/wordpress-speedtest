@@ -143,6 +143,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Sweden Dedicated / SSD VPS 1024 MB    | Intel E5640                | 5.6 |    337 | [✓]         |
 | Cloudwatt by Orange / n2.cw.standard-2 :alarm_clock: | Intel E312xx | 5.6 |**109**| [✓]         |
 | Steadfast / 2C-1GB :alarm_clock:      | Intel E5-2650              | 5.6 |    224 | [&ensp;]    |
+| Kamatera / 2C-1GB shared vCPU :alarm_clock: | Intel E5-2690 v4     | 5.6 | **140**| [&ensp;]    |
+| Kamatera / 2C-1GB dedicated vCPU :alarm_clock: | Intel E5-2690 v4  | 5.6 | **133**| [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html https://www.yourserver.se/portal/register.php -->
