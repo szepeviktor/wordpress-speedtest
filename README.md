@@ -33,6 +33,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Aruba Cloud / Smart Small (€1)        | Intel L5640                | 5.6 |    210 | [&ensp;]    |
 | **Aruba Cloud** / Smart Large         | Intel E5-2650 v3           | 5.6 | **143**| [✓]         |
 | Aruba Cloud / Smart Small (€1)        | Intel E5-2650L v3          | 5.6 |    190 | [&ensp;]    |
+| **Aruba Cloud** / Smart Small (€1)    | Intel E5-2650L v4          | 5.6 | **138**| [✓]         |
 | EDIS / KVM Basic plus                 | Intel E5649                | 5.6 |    240 | [&ensp;]    |
 | Joyent Public Cloud / Infrastructure container High CPU 4 SmartOS | Intel E5-2670 | 5.6 | 245 | [&ensp;] |
 | Joyent Public Cloud / KVM High CPU 1.75 | Intel E5-2670            | 5.6 |    160 | [✓]         |
