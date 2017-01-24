@@ -134,7 +134,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Rackhost / VPS 2048                   | Intel 5160                 | 5.6 |    230 | [✓]         |
 | [Packet](https://www.packet.net/bare-metal/servers/type-2a/) / Type 2A in EWR1 :computer: :alarm_clock: | Cavium ThunderX CN8890 | 5.6 | 500 | [✓] |
 | Innofield / Flow App Engine           | Intel E5-2695 v2           | 5.6 |    206 | [✓]         |
-| [e24cloud.com](https://www.e24cloud.com) / 4C 8GB :alarm_clock: | Intel E5-2670 v2           | 5.6 |    183 | [✓]         |
+| [e24cloud.com](https://www.e24cloud.com) / 4C 8GB :alarm_clock: | Intel E5-2670 v2 | 5.6 | 183 | [✓] |
 | Cloudwatt by Orange / n1.cw.highcpu-2 :alarm_clock: | Intel E312xx | 5.6 |    200 | [✓]         |
 | Dediserve / 2C-2GB in Vienna          | QEMU                       | 5.6 |    203 | [✓]         |
 | Dediserve / 2C-2GB in Frankfurt       | Intel E5-2660              | 5.6 |    219 | [✓]         |
@@ -147,14 +147,15 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Kamatera / 2C-1GB shared vCPU :alarm_clock: | Intel E5-2690 v4     | 5.6 | **140**| [&ensp;]    |
 | Kamatera / 2C-1GB dedicated vCPU :alarm_clock: | Intel E5-2690 v4  | 5.6 | **133**| [✓]         |
 | Comalis / PRO 24G dedicated :computer: | Intel Xeon                | 5.6 |    185 | [✓]         |
-| [Atlantic.Net](https://cloud.atlantic.net/r/5qo5v4ob) / G2.2GB | QEMU | 5.6 | 250 | [✓]         |
+| Atlantic.Net / G2.2GB :alarm_clock:   | Intel E5-2620              | 5.6 |    250 | [✓]         |
+| [Advania](https://advania.com/cloud/open-cloud/) / Small Platinum | QEMU | 5.6 | 141 | [&ensp;] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html https://www.yourserver.se/portal/register.php -->
 
-<!-- wget -O- https://git.io/vor8W|bash -->
+<!-- wget -O- https://git.io/vor8W|bash -x  -->
 
-`*` Stable means deviation is within ± 10%, the cause is mainly
+`*` Stable means deviation is within ± 10%, the main cause is
 [memory bandwidth](https://github.com/szepeviktor/debian-server-tools/blob/master/monitoring/memory-bandwidth/README.md).
 
 `†` Shared hosting with SSH access.
@@ -241,7 +242,10 @@ Operation
 1. Data center location
 1. Price
 1. Has own AS? Number of peers
-1. Response to abuse report, spammer neighbors http://www.projecthoneypot.org/ http://www.senderbase.org/lookup/
+1. Response to abuse report, spammer neighbors
+    - http://www.projecthoneypot.org/
+    - http://www.senderbase.org/lookup/org/?search_string=AS-description
+    - https://cleantalk.org/blacklists/AS0000
 1. Stores plain text passwords?
 1. Response time of nighttime technical support in case of network or hardware failure
 1. Daytime technical and billing support
