@@ -18,13 +18,13 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 | **159** | [✓] |
 | [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 :alarm_clock: | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
+| [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 178 | [✓] |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145** | [✓] |
 | Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | My custom PC :computer:               | AMD FX-6300                | 5.6 |    158 | [✓]         |
-| [RunAbove by OVH](http://runabove.me/HAR2) / Sandbox | Intel E312xx Sandy Bridge | 5.5 | 200 | [&ensp;] |
-| [RunAbove by OVH](http://runabove.me/HAR2) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
+| [RunAbove by OVH](https://www.runabove.com/) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128** | [&ensp;] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance HG-7 :alarm_clock: | Intel E5-2687W v3 | 5.6 | **160** | [&ensp;] |
 | OVH Web / Cloud VPS                   | AMD Opteron 4386           | 5.5 |    210 | [✓]         |
@@ -81,7 +81,6 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | CloudSigma / in ZRH :alarm_clock:     | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
 | Scaleway / VPS :alarm_clock:          | Intel Atom C2750           | 5.6 |    500 | [✓]         |
 | Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
-| Exoscale / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 |178 | [✓]         |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
 | US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
 | GoDaddy / Cloud Server Tiny :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 190 | [✓]         |
@@ -151,7 +150,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Advania](https://advania.com/cloud/open-cloud/) / Small Platinum | QEMU | 5.6 | 141 | [&ensp;] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html https://www.yourserver.se/portal/register.php -->
+<!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html
+https://www.yourserver.se/portal/register.php https://www.alistaro.com/ssd-virtual-servers.html -->
 
 <!-- wget -O- https://git.io/vor8W|bash -x  -->
 
@@ -233,7 +233,7 @@ wget -qO- https://github.com/szepeviktor/wordpress-speedtest/raw/master/README.m
 } > wordpress-speedtest-sorted-results.md
 ```
 
-Then use a Markdown editor like [Caret](http://caret.io/) to display it.
+Then use a Markdown editor like [Caret](http://caret.io/) to display it. Also see [issue #6](https://github.com/szepeviktor/wordpress-speedtest/issues/6).
 
 ### How to choose VPS provider?
 
@@ -244,8 +244,8 @@ Operation
 1. Has own AS? Number of peers
 1. Response to abuse report, spammer neighbors
     - http://www.projecthoneypot.org/
-    - http://www.senderbase.org/lookup/org/?search_string=AS-description
-    - https://cleantalk.org/blacklists/AS0000
+    - `http://www.senderbase.org/lookup/org/?search_string=AS-description`
+    - `https://cleantalk.org/blacklists/AS0000`
 1. Stores plain text passwords?
 1. Response time of nighttime technical support in case of network or hardware failure
 1. Daytime technical and billing support
