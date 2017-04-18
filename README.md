@@ -80,7 +80,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Gandi.net / Simple Hosting ††         | Intel E5-2650L             | 5.4 |    600 | [&ensp;]    |
 | iFastNet / Entry (OpenVZ)             | Intel i7-4771              | 5.6 |    160 | [&ensp;]    |
 | CloudSigma / in ZRH :alarm_clock:     | Intel E5-2697 v3           | 5.6 |    238 | [&ensp;]    |
-| Scaleway / VPS :alarm_clock:          | Intel Atom C2750           | 5.6 |    500 | [✓]         |
+| Scaleway / VC1S :alarm_clock:         | Intel Atom C2750           | 5.6 |    500 | [✓]         |
 | Scaleway / C2S :computer: :alarm_clock: | Intel Atom C2550         | 5.6 |    381 | [✓]         |
 | Telekom Cloud / c2.medium             | Intel E5-2658A v3          | 5.6 |    415 | [✓]         |
 | US Dedicated / KVM 1                  | QEMU                       | 5.6 |    497 | [&ensp;]    |
@@ -149,6 +149,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Comalis / PRO 24G dedicated :computer: | Intel Xeon                | 5.6 |    185 | [✓]         |
 | Atlantic.Net / G2.2GB :alarm_clock:   | Intel E5-2620              | 5.6 |    250 | [✓]         |
 | [Advania](https://advania.com/cloud/open-cloud/) / Small Platinum | QEMU | 5.6 | 141 | [&ensp;] |
+| Scaleway / X64-30GB :alarm_clock:     | Intel D-1531               | 5.6 |    211 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html
@@ -254,7 +255,7 @@ Operation
 Infrastructure
 
 1. Redundancy: power, cooling, network, storage, **hypervisor**
-1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6
+1. Network: worldwide and regional bandwidth, port speed, D/DoS mitigation, IPv6 http://bgp.he.net/
 1. CPU speed: PassMark CPU Mark 2000+, sysbench < 20 ms, WordPress Speedtest < 150 ms
 1. Memory bandwidth: flat graphs with [bandwidth64](http://zsmith.co/bandwidth.html)
 1. Disk access time: < 1 ms
