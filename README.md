@@ -152,6 +152,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [Advania](https://advania.com/cloud/open-cloud/) / Small Platinum | QEMU | 5.6 | 141 | [&ensp;] |
 | Scaleway / X64-30GB :alarm_clock:     | Intel D-1531               | 5.6 |    211 | [&ensp;]    |
 | Scaleway / ARM64-8GB :alarm_clock:    | Cavium ThunderX            | 5.6 |    559 | [✓]         |
+| hosttech / Sunny 2C-2GB               | Intel E5-2620 v3           | 5.6 |    189 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html
