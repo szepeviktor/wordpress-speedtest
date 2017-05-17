@@ -153,7 +153,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Scaleway / X64-30GB :alarm_clock:     | Intel D-1531               | 5.6 |    211 | [&ensp;]    |
 | Scaleway / ARM64-8GB :alarm_clock:    | Cavium ThunderX            | 5.6 |    559 | [✓]         |
 | hosttech / Sunny 2C-2GB               | Intel E5-2620 v3           | 5.6 |    189 | [&ensp;]    |
-| Platform.sh / Development             | Intel E5-2670 v2           | 7.0 |    188 | [&ensp;]    |
+| Platform.sh / Standard :alarm_clock:  | Intel E5-2670 v2           | 7.0 |    180 | [&ensp;]    |
+| [RoseHosting](https://www.rosehosting.com/linux-vps-hosting.html) / SSD 2 VPS | Intel E5-2660 v4 | 5.6 | **111** | [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html
@@ -170,7 +171,7 @@ https://www.yourserver.se/portal/register.php https://www.alistaro.com/ssd-virtu
 
 :computer: Dedicated server, not VPS.
 
-:alarm_clock: Hourly (or daily) billing available.
+:alarm_clock: Hourly or daily billing available.
 
 `+` CPU `scaling_governor` was set to `performance`.
 
