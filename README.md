@@ -155,10 +155,15 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | hosttech / Sunny 2C-2GB               | Intel E5-2620 v3           | 5.6 |    189 | [&ensp;]    |
 | Platform.sh / Standard :alarm_clock:  | Intel E5-2670 v2           | 7.0 |    180 | [&ensp;]    |
 | [RoseHosting](https://www.rosehosting.com/linux-vps-hosting.html) / SSD 2 VPS | Intel E5-2660 v4 | 5.6 | **111** | [✓] |
+| A2 Hosting / Dynamic VPS OpenVZ       | Intel E5-2620 v4           | 5.6 |    171 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!-- https://clients.altushost.com/register.php https://my.vps2day.com/register.html
-https://www.yourserver.se/portal/register.php https://www.alistaro.com/ssd-virtual-servers.html -->
+<!--
+https://clients.altushost.com/register.php
+https://my.vps2day.com/register.html
+https://www.yourserver.se/portal/register.php
+https://www.alistaro.com/ssd-virtual-servers.html
+-->
 
 <!-- wget -O- https://git.io/vor8W|bash -x  -->
 
