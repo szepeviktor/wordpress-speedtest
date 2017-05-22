@@ -251,6 +251,7 @@ Then use a Markdown editor like [Caret](http://caret.io/) to display it. Also se
 
 Operation
 
+1. Company transparency, status page
 1. Data center location
 1. Price
 1. Has own AS? Number of peers
