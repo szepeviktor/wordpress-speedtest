@@ -156,6 +156,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | Platform.sh / Standard :alarm_clock:  | Intel E5-2670 v2           | 7.0 |    180 | [&ensp;]    |
 | [RoseHosting](https://www.rosehosting.com/linux-vps-hosting.html) / SSD 2 VPS | Intel E5-2660 v4 | 5.6 | **111** | [✓] |
 | A2 Hosting / Dynamic VPS OpenVZ       | Intel E5-2620 v4           | 5.6 |    171 | [✓]         |
+| Time4VPS / KVM Linux 2                | Intel E5-2640 v4           | 5.6 |    160 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
