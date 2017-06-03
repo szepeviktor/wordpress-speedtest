@@ -9,6 +9,8 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 
 [Cloud Provider Directory by Gartner](https://cloudharmony.com/cloudsquare)
 
+[List of datacenters](https://udger.com/resources/datacenter-list)
+
 ### Results
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
