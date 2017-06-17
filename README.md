@@ -2,6 +2,10 @@
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
+Target speed is below `150 msec` (faster than my AMD FX-6300)
+
+[How to choose VPS provider?](/README.md#how-to-choose-vps-provider)
+
 [Video on competing with Amazon](http://livestream.com/gigaom/structureeurope/videos/30328698) *4th video*
 <!-- Amazon in sight http://livestream.com/accounts/74987/events/2361507/videos/30328698/player?autoPlay=true&mute=false -->
 
@@ -162,6 +166,7 @@ WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS
 | [IP-Projects](https://www.ip-projects.de/produkte/linux-ssd-virtuelle-server/) / vServer M SSD | Intel E5-1650 v4           | 5.6 |    162 | [✓]         |
 | MikroVPS / XEN-512M                   | Intel X5650                | 5.6 |    296 | [&ensp;]    |
 | Cherry Servers / SMART8               | Intel E3-1240              | 5.6 |    135 | [✓]         |
+| Combell / m1.medium                   | Intel E312xx (Sandy Bridge)| 5.6 |    151 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
