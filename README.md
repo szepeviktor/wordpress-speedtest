@@ -2,7 +2,7 @@
 
 WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
-Target speed is below `150 msec` (faster than my AMD FX-6300)
+Target speed is below **150 msec** (faster than my AMD FX-6300)
 
 [How to choose VPS provider?](/README.md#how-to-choose-vps-provider)
 
@@ -19,7 +19,6 @@ Target speed is below `150 msec` (faster than my AMD FX-6300)
 
 | Description | [CPU](https://www.cpubenchmark.net/singleThread.html "PassMark") | PHP | msec | stable&#42; |
 | ------------------------------------- | ---------------------------| --- | ------:| ----------- |
-| [Tu Cloud Server](https://www.tucloudserver.com/) / VPS 50 in Madrid | Intel E5-2620 v2 | 5.6 | 179 | [✓] |
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 | **159** | [✓] |
@@ -31,6 +30,7 @@ Target speed is below `150 msec` (faster than my AMD FX-6300)
 | Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
+| [Tu Cloud Server](https://www.tucloudserver.com/) / VPS 50 in Madrid | Intel E5-2620 v2 | 5.6 | 179 | [✓] |
 | My custom PC :computer:               | AMD FX-6300                | 5.6 |    158 | [✓]         |
 | [RunAbove by OVH](https://www.runabove.com/) / Steadyfast | Intel E312xx Sandy Bridge | 5.5 | **154** | [✓] |
 | [OVH Public Cloud](https://www.ovh.com/fr/cloud/instances/cpu.xml) / CPU Instance EG-7 :alarm_clock: | Intel E5-2650 v3 | 5.6 | **128** | [&ensp;] |
