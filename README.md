@@ -167,6 +167,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | MikroVPS / XEN-512M                   | Intel X5650                | 5.6 |    296 | [&ensp;]    |
 | Cherry Servers / SMART8               | Intel E3-1240              | 5.6 |    135 | [✓]         |
 | Combell / m1.medium                   | Intel E312xx (Sandy Bridge)| 5.6 |    151 | [&ensp;]    |
+| JZT / Midi                            | Intel X5675                | 5.6 |    199 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
