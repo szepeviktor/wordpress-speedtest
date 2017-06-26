@@ -22,12 +22,12 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | [**UpCloud**](https://www.upcloud.com/pricing/)<a name="upcloud"></a> / in Frankfurt :alarm_clock: | Intel E5-2687W v3 | 5.6 | **115** | [✓] |
 | [**Liquid Web**](http://liquidweb.evyy.net/c/295810/278394/4464) / Storm VPS 1GB :alarm_clock: | Intel E3-1271 v3 | 5.6 | **94** | [✓] |
 | [**Contabo**](https://contabo.com/?show=vps) / VPS M SSD | Intel E5-2620 v3 | 5.6 | **159** | [✓] |
-| [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 :alarm_clock: | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
+| [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 :alarm_clock: freetier | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
 | [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 178 | [✓] |
 | [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-GVA-2 :alarm_clock: | Intel E5-2680 v4 | 5.6 | **145** | [✓] |
 | VPS.ag / Cloud VPS (€2, LXC)          | Intel E5-2440 v2           | 5.6 |    209 | [✓]         |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145** | [✓] |
-| Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
+| Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz freetier | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | [Tu Cloud Server](https://www.tucloudserver.com/) / VPS 50 in Madrid | Intel E5-2620 v2 | 5.6 | 179 | [✓] |
@@ -58,7 +58,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | Scaleway / C1 :computer: :alarm_clock: | Marvell Armada 370/XP     | 5.6 |   1111 | [✓]         |
 | [SWNet Group](http://www.swnetgroup.hu/vps-virtualis-szerver-berles/) | Intel E5-2630 v3 | 5.6 | 167 | [&ensp;] |
 | [Rendszerinformatika](http://servira.com/) | Intel E5-2665         | 5.5 |    222 | [&ensp;]    |
-| Amazon EC2 / c4.large :alarm_clock:   | Intel E5-2666 v3           | 5.6 | **113**| [✓]         |
+| Amazon EC2 / c4.large :alarm_clock: freetier | Intel E5-2666 v3    | 5.6 | **113**| [✓]         |
 | CenturyLink / Standard server :alarm_clock: | Intel E5-2680        | 5.6 | **151**| [✓]         |
 | CenturyLink / [Hyperscale](https://www.ctl.io/hyperscale/#Comparison) :alarm_clock: | Intel E5-2697 v2 | 5.6 | **150**| [✓] |
 | RamNode / Premium KVM SSD in NL       | Intel E3-1230 V2           | 5.6 |    185 | [&ensp;]    |
@@ -166,8 +166,9 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | [IP-Projects](https://www.ip-projects.de/produkte/linux-ssd-virtuelle-server/) / vServer M SSD | Intel E5-1650 v4           | 5.6 |    162 | [✓]         |
 | MikroVPS / XEN-512M                   | Intel X5650                | 5.6 |    296 | [&ensp;]    |
 | Cherry Servers / SMART8               | Intel E3-1240              | 5.6 |    135 | [✓]         |
-| Combell / m1.medium                   | Intel E312xx (Sandy Bridge)| 5.6 |    151 | [&ensp;]    |
+| Combell / m1.medium                   | Intel E5-2660              | 5.6 |    151 | [✓]         |
 | JZT / Midi                            | Intel X5675                | 5.6 |    199 | [✓]         |
+| ZeroTime Services / VPS Pro 2C        | Intel E5-2630 v3           | 5.6 |    145 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
