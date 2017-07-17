@@ -169,6 +169,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | Combell / m1.medium                   | Intel E5-2660              | 5.6 |    151 | [✓]         |
 | JZT / Midi                            | Intel X5675                | 5.6 |    199 | [✓]         |
 | ZeroTime Services / VPS Pro 2C        | Intel E5-2630 v3           | 5.6 |    145 | [&ensp;]    |
+| fxhosting.hu / KVM-H 8                | Intel E5-2440              | 5.6 |    214 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
