@@ -170,6 +170,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | JZT / Midi                            | Intel X5675                | 5.6 |    199 | [✓]         |
 | ZeroTime Services / VPS Pro 2C        | Intel E5-2630 v3           | 5.6 |    145 | [&ensp;]    |
 | fxhosting.hu / KVM-H 8                | Intel E5-2440              | 5.6 |    214 | [✓]         |
+| Kyup by SiteGround / 2C-1GB lxc :alarm_clock: | Intel E5-2690 v2   | 5.6 |    160 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
