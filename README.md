@@ -27,7 +27,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-GVA-2 :alarm_clock: | Intel E5-2680 v4 | 5.6 | **145** | [✓] |
 | VPS.ag / Cloud VPS (€2, LXC)          | Intel E5-2440 v2           | 5.6 |    209 | [✓]         |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145** | [✓] |
-| Google Compute Engine / n1-highcpu-2 :alarm_clock: | Intel Xeon 2.60 GHz freetier | 5.6 | **137** | [✓] |
+| Google Compute Engine / n1-highcpu-2 :alarm_clock: freetier | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
 | [Linode](https://www.linode.com/?r=66de78b7ac99f79ec3a8e89a60c6c825dd107df1) / KVM :alarm_clock: | Intel E5-2680 v3 | 5.6 | 180 | [&ensp;] |
 | [Tu Cloud Server](https://www.tucloudserver.com/) / VPS 50 in Madrid | Intel E5-2620 v2 | 5.6 | 179 | [✓] |
@@ -270,7 +270,7 @@ Operation
 1. Has own AS? Number of peers
 1. Response to abuse report, spammer neighbors
     - http://www.projecthoneypot.org/
-    - `http://www.senderbase.org/lookup/org/?search_string=AS-description`
+    - `https://www.talosintelligence.com/reputation_center/lookup?search=AS-description`
     - `https://cleantalk.org/blacklists/AS0000`
     - `https://cymon.io/IP`
 1. Stores plain text passwords?
