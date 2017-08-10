@@ -171,7 +171,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | ZeroTime Services / VPS Pro 2C        | Intel E5-2630 v3           | 5.6 |    145 | [&ensp;]    |
 | fxhosting.hu / KVM-H 8                | Intel E5-2440              | 5.6 |    214 | [✓]         |
 | Kyup by SiteGround / 2C-1GB lxc :alarm_clock: | Intel E5-2690 v2   | 5.6 |    160 | [&ensp;]    |
-| FirstVDS / Разгон                     | Intel E5-2630 v3           | 5.6 |    179 | [✓]         |
+| FirstVDS / Разгон :alarm_clock:       | Intel E5-2630 v3           | 5.6 |    179 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
@@ -245,6 +245,8 @@ cat /proc/cpuinfo
 `*` Download `msec` from [szepeviktor/debian-server-tools](https://github.com/szepeviktor/debian-server-tools/blob/master/tools/msec)
 
 Install PHP 5.6 on Ubuntu 14.04 Trusty `LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php5-5.6`
+
+Install PHP 5.6 on CentOS 7 https://rpms.remirepo.net/wizard/
 
 cPanel server's PHP-CLI binary location `/opt/alt/php56/usr/bin/php`
 
