@@ -174,6 +174,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | FirstVDS / Разгон :alarm_clock:       | Intel E5-2630 v3           | 5.6 |    179 | [✓]         |
 | DataPacket / VServer 2 GB             | Intel E5-1650              | 5.6 |    149 | [✓]         |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel E5-2667 v2 | 5.6 | **130** | [✓] |
+| Snel / Bucket                         | Intel E5-2630 v4           | 5.6 |    180 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
