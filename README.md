@@ -25,7 +25,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | [**Oktawave**](https://www.oktawave.com/en/instances) / v1.highcpu-2.09 :alarm_clock: freetier | Intel E5-2660 v3 | 5.6 | **133** | [✓] |
 | [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-DK-2 :alarm_clock: | Intel E312xx Sandy Bridge | 5.6 | 178 | [✓] |
 | [Exoscale](https://portal.exoscale.ch/register?r=FY4A6ibqDioH) / Medium in CH-GVA-2 :alarm_clock: | Intel E5-2680 v4 | 5.6 | **145** | [✓] |
-| VPS.ag / Cloud VPS (€2, LXC)          | Intel E5-2440 v2           | 5.6 |    209 | [✓]         |
+| VPS.ag / Cloud VPS (€3, lxc)          | Intel E5-2440 v2           | 5.6 |    209 | [✓]         |
 | [Private Layer](https://www.privatelayer.com/switzerland-cloud-server.php) / 4 Cores @ 3.0 GHz | Intel X5675 | 5.6 | **145** | [✓] |
 | Google Compute Engine / n1-highcpu-2 :alarm_clock: freetier | Intel Xeon 2.60 GHz | 5.6 | **137** | [✓] |
 | [Digital Ocean](https://www.digitalocean.com/?refcode=1f29354cd6ab) :alarm_clock: | Intel E5-2630L v2 | 5.6 | 195 | [✓] |
@@ -175,6 +175,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | DataPacket / VServer 2 GB             | Intel E5-1650              | 5.6 |    149 | [✓]         |
 | [Magyar Hosting](https://online.mhosting.hu/partner.php?p=182&d=https%3A%2F%2Fwww.cloudvps.hu%2Fssd-vps) / SSD VPS | Intel E5-2667 v2 | 5.6 | **130** | [✓] |
 | Snel / Bucket                         | Intel E5-2630 v4           | 5.6 |    180 | [✓]         |
+| H4Y / VM-2                            | Intel E312xx               | 5.6 |    178 | [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
