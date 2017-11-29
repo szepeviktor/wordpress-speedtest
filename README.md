@@ -177,6 +177,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | Snel / Bucket                         | Intel E5-2630 v4           | 5.6 |    180 | [✓]         |
 | H4Y / VM-2                            | Intel E5-2690              | 5.6 |    178 | [✓]         |
 | CloudVPS / Small HD 2GB               | Intel E5-2697 v4           | 5.6 | **134**| [✓]         |
+| [**Keyweb**](https://www.keyweb.de/en/products/server/root-virtual-server) / RVS L14 SSD | Intel i7 | 5.6 | **122**| [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
