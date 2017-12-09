@@ -297,3 +297,5 @@ Infrastructure
 1. Memory bandwidth: flat graphs with [bandwidth64](http://zsmith.co/bandwidth.html)
 1. Disk access time: < 1 ms
 1. Scheduled backup
+
+###### This page contains affiliate links
