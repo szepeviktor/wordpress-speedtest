@@ -1,6 +1,6 @@
-# WordPress Speedtest
+# Speedtest for WordPress
 
-WordPress speedtest with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
+Benchmark with Sqlite3 on PHP-CLI. You only have to unpack it on a VPS or a shared hosting account with SSH access.
 
 Target speed is below **150 msec** (faster than my AMD FX-6300)
 
@@ -179,7 +179,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | CloudVPS / Small HD 2GB               | Intel E5-2697 v4           | 5.6 | **134**| [✓]         |
 | [**Keyweb**](https://www.keyweb.de/en/products/server/root-virtual-server) / RVS L14 SSD | Intel i7 | 5.6 | **122**| [✓] |
 | FASTVPS / EVO-8-SSD                   | Intel E5-2630 v4           | 5.6 |    169 | [✓]         |
-| **Selectel** / 2C-1GB in ru-1b        | Intel E5-2680 v4           | 5.6 | **123**| [✓]         |
+| [**Selectel**](https://selectel.com/services/cloud/vpc/), vscale.io / 2C-1GB in ru-1b :alarm_clock: | Intel E5-2680 v4 | 5.6 | **123**| [✓] |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
