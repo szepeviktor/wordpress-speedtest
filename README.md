@@ -280,7 +280,7 @@ Operation
 1. Company transparency, status page
 1. Data center location
 1. Price
-1. Has own AS? Number of peers
+1. Has own [AS](https://en.wikipedia.org/wiki/Autonomous_system_(Internet))? Number of peers
 1. Response to abuse report, spammer neighbors
     - http://www.projecthoneypot.org/
     - `https://www.talosintelligence.com/reputation_center/lookup?search=AS-description`
