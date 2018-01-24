@@ -180,6 +180,7 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | [**Keyweb**](https://www.keyweb.de/en/products/server/root-virtual-server) / RVS L14 SSD | Intel i7 | 5.6 | **122**| [✓] |
 | FASTVPS / EVO-8-SSD                   | Intel E5-2630 v4           | 5.6 |    169 | [✓]         |
 | [**Selectel**](https://selectel.com/services/cloud/vpc/), vscale.io / 2C-1GB in ru-1b :alarm_clock: | Intel E5-2680 v4 | 5.6 | **123**| [✓] |
+| 1984 / VServer                        | N/A                        | 5.6 |    159 | [&ensp;]    |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
 <!--
