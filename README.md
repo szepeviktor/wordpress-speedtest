@@ -181,17 +181,11 @@ Target speed is below **150 msec** (faster than my AMD FX-6300)
 | FASTVPS / EVO-8-SSD                   | Intel E5-2630 v4           | 5.6 |    169 | [✓]         |
 | [**Selectel**](https://selectel.com/services/cloud/vpc/), vscale.io / 2C-1GB in ru-1b :alarm_clock: | Intel E5-2680 v4 | 5.6 | **123**| [✓] |
 | 1984 / VServer                        | N/A                        | 5.6 |    159 | [&ensp;]    |
-| uHost / L VPS Server                  | N/A                        | 5.6 |    135 | [✓]         |
+| uHost / L VPS Server                  | Intel E5-2696 v3           | 5.6 |    135 | [✓]         |
+| IntoVPS / M4                          | Intel E5-2640 v4           | 5.6 | **105**| [✓]         |
 | **Description** | **[CPU](https://www.cpubenchmark.net/singleThread.html "PassMark")** | **PHP** | **msec** | **stable&#42;** |
 
-<!--
-https://clients.altushost.com/register.php
-https://my.vps2day.com/register.html
-https://www.yourserver.se/portal/register.php
-https://www.alistaro.com/ssd-virtual-servers.html
--->
-
-<!-- wget -O- https://git.io/vor8W|bash -x  -->
+<!--  wget -O- https://git.io/vor8W|bash -x  -->
 
 `*` Stable means deviation is within ± 10%, the main cause is
 [memory bandwidth](https://github.com/szepeviktor/debian-server-tools/blob/master/monitoring/memory-bandwidth/README.md).
@@ -221,7 +215,6 @@ wget -qO- https://github.com/szepeviktor/wordpress-speedtest/releases/download/v
 # Start a test
 cd wordpress-speedtest/ && time php index.php > /dev/null
 ```
-
 
 ### Usage
 
